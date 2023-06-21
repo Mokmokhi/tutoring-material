@@ -13,10 +13,11 @@ INPUT D:\Program Files (x86)\MiKTeX\tex\latex\base\article.cls
 INPUT D:\Program Files (x86)\MiKTeX\tex\latex\base\article.cls
 INPUT D:\Program Files (x86)\MiKTeX\tex\latex\base\article.cls
 INPUT D:\Program Files (x86)\MiKTeX\tex\latex\base\article.cls
-INPUT D:\Program Files (x86)\MiKTeX\tex\latex\base\size10.clo
-INPUT D:\Program Files (x86)\MiKTeX\tex\latex\base\size10.clo
-INPUT D:\Program Files (x86)\MiKTeX\tex\latex\base\size10.clo
-INPUT D:\Program Files (x86)\MiKTeX\tex\latex\base\size10.clo
+INPUT D:\Program Files (x86)\MiKTeX\tex\latex\base\size12.clo
+INPUT D:\Program Files (x86)\MiKTeX\tex\latex\base\size12.clo
+INPUT D:\Program Files (x86)\MiKTeX\tex\latex\base\size12.clo
+INPUT D:\Program Files (x86)\MiKTeX\tex\latex\base\size12.clo
+INPUT D:\Program Files (x86)\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\Owenm\AppData\Roaming\MiKTeX\tex\latex\ctex\ctex.sty
 INPUT C:\Users\Owenm\AppData\Roaming\MiKTeX\tex\latex\ctex\ctex.sty
 INPUT C:\Users\Owenm\AppData\Roaming\MiKTeX\tex\latex\ctex\ctex.sty
@@ -265,10 +266,6 @@ INPUT D:\Program Files (x86)\MiKTeX\tex\latex\tools\indentfirst.sty
 INPUT D:\Program Files (x86)\MiKTeX\tex\latex\tools\indentfirst.sty
 INPUT D:\Program Files (x86)\MiKTeX\tex\latex\tools\indentfirst.sty
 INPUT D:\Program Files (x86)\MiKTeX\tex\latex\tools\indentfirst.sty
-INPUT C:\Users\Owenm\AppData\Roaming\MiKTeX\tex\latex\ctex\ctex-c5size.clo
-INPUT C:\Users\Owenm\AppData\Roaming\MiKTeX\tex\latex\ctex\ctex-c5size.clo
-INPUT D:\Program Files (x86)\MiKTeX\fonts\tfm\public\cm\cmr7.tfm
-INPUT D:\Program Files (x86)\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
 INPUT C:\Users\Owenm\AppData\Roaming\MiKTeX\tex\latex\ctex\fontset\ctex-fontset-windows.def
 INPUT C:\Users\Owenm\AppData\Roaming\MiKTeX\tex\latex\ctex\fontset\ctex-fontset-windows.def
 INPUT C:\Users\Owenm\AppData\Roaming\MiKTeX\tex\latex\ctex\config\ctex.cfg
@@ -321,7 +318,7 @@ INPUT .\Comment.aux
 INPUT Comment.aux
 INPUT Comment.aux
 OUTPUT Comment.aux
-INPUT D:\Program Files (x86)\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
+INPUT D:\Program Files (x86)\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\Owenm\AppData\Roaming\MiKTeX\tex\latex\ctex\fd\c70rm.fd
 INPUT C:\Users\Owenm\AppData\Roaming\MiKTeX\tex\latex\ctex\fd\c70rm.fd
 INPUT C:\Users\Owenm\AppData\Roaming\MiKTeX\tex\latex\ctex\fd\c70rm.fd
@@ -345,8 +342,9 @@ INPUT C:\Users\Owenm\AppData\Roaming\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong8
 INPUT C:\Users\Owenm\AppData\Roaming\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong52.tfm
 INPUT C:\Users\Owenm\AppData\Roaming\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong79.tfm
 INPUT C:\Users\Owenm\AppData\Roaming\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong76.tfm
-INPUT C:\Users\Owenm\AppData\Roaming\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong62.tfm
+INPUT C:\Users\Owenm\AppData\Roaming\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong53.tfm
 INPUT C:\Users\Owenm\AppData\Roaming\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong65.tfm
+INPUT C:\Users\Owenm\AppData\Roaming\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong62.tfm
 INPUT C:\Users\Owenm\AppData\Roaming\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong5c.tfm
 INPUT C:\Users\Owenm\AppData\Roaming\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong5e.tfm
 INPUT C:\Users\Owenm\AppData\Roaming\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong5f.tfm
@@ -396,8 +394,9 @@ INPUT C:\WINDOWS\Fonts\simsun.ttc
 INPUT C:\WINDOWS\Fonts\simsun.ttc
 INPUT C:\WINDOWS\Fonts\simsun.ttc
 INPUT C:\WINDOWS\Fonts\simsun.ttc
+INPUT C:\WINDOWS\Fonts\simsun.ttc
 INPUT C:\WINDOWS\Fonts\simhei.ttf
 INPUT C:\WINDOWS\Fonts\simhei.ttf
 INPUT C:\WINDOWS\Fonts\simhei.ttf
-INPUT D:\Program Files (x86)\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
-INPUT D:\Program Files (x86)\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT D:\Program Files (x86)\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
+INPUT D:\Program Files (x86)\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
