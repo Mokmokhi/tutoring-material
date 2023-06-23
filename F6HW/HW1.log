@@ -1,79 +1,74 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.23)  23 JUN 2023 21:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.11.24)  24 JUN 2023 01:41
 entering extended mode
-**c:/GitHub/tutoring-material/F6HW/HW1.tex
-(c:/GitHub/tutoring-material/F6HW/HW1.tex
-LaTeX2e <2021-11-15>
-L3 programming layer <2021-11-12> (C:\Users\Owenm\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
-Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
-(C:\Users\Owenm\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
-File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+**c:/Users/Owenm/Documents/GitHub/tutoring-material/F6HW/HW1.tex
+(c:/Users/Owenm/Documents/GitHub/tutoring-material/F6HW/HW1.tex
+LaTeX2e <2021-06-01>
+L3 programming layer <2021-06-01> (D:\Program Files (x86)\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2021/02/12 v1.4n Standard LaTeX document class
+(D:\Program Files (x86)\MiKTeX\tex/latex/base\size12.clo
+File: size12.clo 2021/02/12 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count183
-\c@section=\count184
-\c@subsection=\count185
-\c@subsubsection=\count186
-\c@paragraph=\count187
-\c@subparagraph=\count188
-\c@figure=\count189
-\c@table=\count190
+\c@part=\count182
+\c@section=\count183
+\c@subsection=\count184
+\c@subsubsection=\count185
+\c@paragraph=\count186
+\c@subparagraph=\count187
+\c@figure=\count188
+\c@table=\count189
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
-) (C:\Users\Owenm\AppData\Local\Programs\MiKTeX\tex/latex/ctex\ctex.sty (C:\Users\Owenm\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
-Package: expl3 2021-11-12 L3 programming layer (loader) 
- (C:\Users\Owenm\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
-File: l3backend-pdftex.def 2021-10-18 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count191
+) (C:\Users\Owenm\AppData\Roaming\MiKTeX\tex/latex/ctex\ctex.sty (D:\Program Files (x86)\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2021-06-01 L3 programming layer (loader) 
+ (D:\Program Files (x86)\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count190
 \l__pdf_internal_box=\box50
 ))
 Package: ctex 2021/06/20 v2.5.7 Chinese adapter in LaTeX (CTEX)
- (C:\Users\Owenm\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse.sty
-Package: xparse 2021-11-12 L3 Experimental document command parser
-) (C:\Users\Owenm\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty
-Package: l3keys2e 2021-11-12 LaTeX2e option processing using LaTeX3 keys
-) (C:\Users\Owenm\AppData\Local\Programs\MiKTeX\tex/latex/ctex\ctexhook.sty
+ (D:\Program Files (x86)\MiKTeX\tex/latex/l3packages/xparse\xparse.sty
+Package: xparse 2021-06-01 L3 Experimental document command parser
+) (D:\Program Files (x86)\MiKTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty
+Package: l3keys2e 2021-06-01 LaTeX2e option processing using LaTeX3 keys
+) (C:\Users\Owenm\AppData\Roaming\MiKTeX\tex/latex/ctex\ctexhook.sty
 Package: ctexhook 2021/06/20 v2.5.7 Document and package hooks (CTEX)
-) (C:\Users\Owenm\AppData\Local\Programs\MiKTeX\tex/latex/ctex\ctexpatch.sty
+) (C:\Users\Owenm\AppData\Roaming\MiKTeX\tex/latex/ctex\ctexpatch.sty
 Package: ctexpatch 2021/06/20 v2.5.7 Patching commands (CTEX)
-) (C:\Users\Owenm\AppData\Local\Programs\MiKTeX\tex/latex/base\fix-cm.sty
+) (D:\Program Files (x86)\MiKTeX\tex/latex/base\fix-cm.sty
 Package: fix-cm 2020/11/24 v1.1t fixes to LaTeX
- (C:\Users\Owenm\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1enc.def
+ (D:\Program Files (x86)\MiKTeX\tex/latex/base\ts1enc.def
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
 ))
-\l__ctex_tmp_int=\count192
+\l__ctex_tmp_int=\count191
 \l__ctex_tmp_box=\box51
 \l__ctex_tmp_dim=\dimen139
-\g__ctex_section_depth_int=\count193
-\g__ctex_font_size_int=\count194
- (C:\Users\Owenm\AppData\Local\Programs\MiKTeX\tex/latex/ctex/config\ctexopts.cfg
+\g__ctex_section_depth_int=\count192
+\g__ctex_font_size_int=\count193
+ (C:\Users\Owenm\AppData\Roaming\MiKTeX\tex/latex/ctex/config\ctexopts.cfg
 File: ctexopts.cfg 2021/06/20 v2.5.7 Option configuration file (CTEX)
 )
 
 Package ctex Warning: UTF8 will be used as the default encoding.
 
-(C:\Users\Owenm\AppData\Local\Programs\MiKTeX\tex/latex/ctex/engine\ctex-engine-pdftex.def
+(C:\Users\Owenm\AppData\Roaming\MiKTeX\tex/latex/ctex/engine\ctex-engine-pdftex.def
 File: ctex-engine-pdftex.def 2021/06/20 v2.5.7 (pdf)LaTeX adapter (CTEX)
-
-
-LaTeX hooks Warning: Generic hook 'package/after/cmap' is deprecated.
-(hooks)              Use hook 'package/cmap/after' instead.
-
-(C:\Users\Owenm\AppData\Local\Programs\MiKTeX\tex/latex/cjk\CJKutf8.sty
+ (C:\Users\Owenm\AppData\Roaming\MiKTeX\tex/latex/cjk\CJKutf8.sty
 Package: CJKutf8 2021/10/16 4.8.5
- (C:\Users\Owenm\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifpdf.sty
+ (D:\Program Files (x86)\MiKTeX\tex/generic/iftex\ifpdf.sty
 Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
- (C:\Users\Owenm\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+ (D:\Program Files (x86)\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2020/03/06 v1.0d TeX engine tests
-)) (C:\Users\Owenm\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+)) (D:\Program Files (x86)\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks16
 \inpenc@posthook=\toks17
-) (C:\Users\Owenm\AppData\Local\Programs\MiKTeX\tex/latex/cjk\CJK.sty
+) (C:\Users\Owenm\AppData\Roaming\MiKTeX\tex/latex/cjk\CJK.sty
 Package: CJK 2021/10/16 4.8.5
- (C:\Users\Owenm\AppData\Local\Programs\MiKTeX\tex/latex/cjk/mule\MULEenc.sty
+ (C:\Users\Owenm\AppData\Roaming\MiKTeX\tex/latex/cjk/mule\MULEenc.sty
 Package: MULEenc 2021/10/16 4.8.5
-) (C:\Users\Owenm\AppData\Local\Programs\MiKTeX\tex/latex/cjk\CJK.enc
+) (C:\Users\Owenm\AppData\Roaming\MiKTeX\tex/latex/cjk\CJK.enc
 File: CJK.enc 2021/10/16 4.8.5
 Now handling font encoding C00 ...
 ... no UTF-8 mapping file for font encoding C00
@@ -141,72 +136,58 @@ Now handling font encoding C62 ...
 ... no UTF-8 mapping file for font encoding C62
 )
 \CJK@indent=\box52
-) (C:\Users\Owenm\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+) (D:\Program Files (x86)\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-)) (C:\Users\Owenm\AppData\Local\Programs\MiKTeX\tex/latex/cjkpunct\CJKpunct.sty
+)) (C:\Users\Owenm\AppData\Roaming\MiKTeX\tex/latex/cjkpunct\CJKpunct.sty
 Package: CJKpunct 2016/05/14 4.8.4
-\CJKpunct@cnta=\count195
-\CJKpunct@cntb=\count196
-\CJKpunct@cntc=\count197
-\CJKpunct@cntd=\count198
-\CJKpunct@cnte=\count199
+\CJKpunct@cnta=\count194
+\CJKpunct@cntb=\count195
+\CJKpunct@cntc=\count196
+\CJKpunct@cntd=\count197
+\CJKpunct@cnte=\count198
    defining Unicode char U+2018 (decimal 8216)
    defining Unicode char U+2019 (decimal 8217)
    defining Unicode char U+201C (decimal 8220)
    defining Unicode char U+201D (decimal 8221)
    defining Unicode char U+2014 (decimal 8212)
    defining Unicode char U+2026 (decimal 8230)
- (C:\Users\Owenm\AppData\Local\Programs\MiKTeX\tex/latex/cjkpunct\CJKpunct.spa)) (C:\Users\Owenm\AppData\Local\Programs\MiKTeX\tex/latex/cjk\CJKspace.sty
+ (C:\Users\Owenm\AppData\Roaming\MiKTeX\tex/latex/cjkpunct\CJKpunct.spa)) (C:\Users\Owenm\AppData\Roaming\MiKTeX\tex/latex/cjk\CJKspace.sty
 Package: CJKspace 2021/10/16 3.8.0
-) (C:\Users\Owenm\AppData\Local\Programs\MiKTeX\tex/latex/ctex\ctexspa.def
+) (C:\Users\Owenm\AppData\Roaming\MiKTeX\tex/latex/ctex\ctexspa.def
 File: ctexspa.def 2021/06/20 v2.5.7 Space info for CJKpunct (CTEX)
 )
-
-LaTeX hooks Warning: Generic hook 'package/after/CJKfntef' is deprecated.
-(hooks)              Use hook 'package/CJKfntef/after' instead.
-
 \ccwd=\dimen140
 \l__ctex_ccglue_skip=\skip49
 )
 \l__ctex_ziju_dim=\dimen141
- (C:\Users\Owenm\AppData\Local\Programs\MiKTeX\tex/latex/zhnumber\zhnumber.sty
+ (C:\Users\Owenm\AppData\Roaming\MiKTeX\tex/latex/zhnumber\zhnumber.sty
 Package: zhnumber 2020/05/01 v2.8 Typesetting numbers with Chinese glyphs
-\l__zhnum_scale_int=\count266
-\l__zhnum_byte_min_int=\count267
-\l__zhnum_byte_max_int=\count268
- (C:\Users\Owenm\AppData\Local\Programs\MiKTeX\tex/latex/zhnumber\zhnumber-utf8.cfg
+\l__zhnum_scale_int=\count199
+\l__zhnum_byte_min_int=\count266
+\l__zhnum_byte_max_int=\count267
+ (C:\Users\Owenm\AppData\Roaming\MiKTeX\tex/latex/zhnumber\zhnumber-utf8.cfg
 File: zhnumber-utf8.cfg 2020/05/01 v2.8 Chinese numerals with UTF8 encoding
-))
-
-LaTeX hooks Warning: Generic hook 'package/after/enumitem' is deprecated.
-(hooks)              Use hook 'package/enumitem/after' instead.
-
-(C:\Users\Owenm\AppData\Local\Programs\MiKTeX\tex/latex/ctex/scheme\ctex-scheme-chinese.def
+)) (C:\Users\Owenm\AppData\Roaming\MiKTeX\tex/latex/ctex/scheme\ctex-scheme-chinese.def
 File: ctex-scheme-chinese.def 2021/06/20 v2.5.7 Chinese scheme for generic (CTEX)
- (C:\Users\Owenm\AppData\Local\Programs\MiKTeX\tex/latex/ctex/config\ctex-name-utf8.cfg
+ (C:\Users\Owenm\AppData\Roaming\MiKTeX\tex/latex/ctex/config\ctex-name-utf8.cfg
 File: ctex-name-utf8.cfg 2021/06/20 v2.5.7 Caption with encoding UTF-8 (CTEX)
-)) (C:\Users\Owenm\AppData\Local\Programs\MiKTeX\tex/latex/tools\indentfirst.sty
+)) (D:\Program Files (x86)\MiKTeX\tex/latex/tools\indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
-)
-
-LaTeX hooks Warning: Generic hook 'package/after/hyperref' is deprecated.
-(hooks)              Use hook 'package/hyperref/after' instead.
-
-(C:\Users\Owenm\AppData\Local\Programs\MiKTeX\tex/latex/ctex/fontset\ctex-fontset-windows.def
+) (C:\Users\Owenm\AppData\Roaming\MiKTeX\tex/latex/ctex/fontset\ctex-fontset-windows.def
 File: ctex-fontset-windows.def 2021/06/20 v2.5.7 Windows fonts definition (CTEX)
-)) (C:\Users\Owenm\AppData\Local\Programs\MiKTeX\tex/latex/ctex/config\ctex.cfg
+)) (C:\Users\Owenm\AppData\Roaming\MiKTeX\tex/latex/ctex/config\ctex.cfg
 File: ctex.cfg 2021/06/20 v2.5.7 Configuration file (CTEX)
-) (C:\Users\Owenm\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+) (C:\Users\Owenm\AppData\Roaming\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
- (C:\Users\Owenm\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+ (D:\Program Files (x86)\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks18
-) (C:\Users\Owenm\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+) (D:\Program Files (x86)\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count269
-\Gm@cntv=\count270
-\c@Gm@tempcnt=\count271
+\Gm@cnth=\count268
+\Gm@cntv=\count269
+\c@Gm@tempcnt=\count270
 \Gm@bindingoffset=\dimen142
 \Gm@wd@mp=\dimen143
 \Gm@odd@mp=\dimen144
@@ -216,11 +197,11 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layouthoffset=\dimen148
 \Gm@layoutvoffset=\dimen149
 \Gm@dimlist=\toks19
- (C:\Users\Owenm\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\Owenm\AppData\Local\Programs\MiKTeX\tex/latex/cjk/UTF8\UTF8.bdg
+ (C:\Users\Owenm\AppData\Roaming\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\Owenm\AppData\Roaming\MiKTeX\tex/latex/cjk/UTF8\UTF8.bdg
 File: UTF8.bdg 2021/10/16 4.8.5
-) (C:\Users\Owenm\AppData\Local\Programs\MiKTeX\tex/latex/cjk/UTF8\UTF8.enc
+) (C:\Users\Owenm\AppData\Roaming\MiKTeX\tex/latex/cjk/UTF8\UTF8.enc
 File: UTF8.enc 2021/10/16 4.8.5
-) (C:\Users\Owenm\AppData\Local\Programs\MiKTeX\tex/latex/cjk/UTF8\UTF8.chr
+) (C:\Users\Owenm\AppData\Roaming\MiKTeX\tex/latex/cjk/UTF8\UTF8.chr
 File: UTF8.chr 2021/10/16 4.8.5
 ) (HW1.aux)
 \openout1 = `HW1.aux'.
@@ -344,23 +325,23 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 12.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 12.
-(C:\Users\Owenm\AppData\Local\Programs\MiKTeX\tex/generic/ctex/zhmap\ctex-zhmap-windows.tex
+(C:\Users\Owenm\AppData\Roaming\MiKTeX\tex/generic/ctex/zhmap\ctex-zhmap-windows.tex
 File: ctex-zhmap-windows.tex 2021/06/20 v2.5.7 Windows font map loader for pdfTeX and DVIPDFMx (CTEX)
 {C:/Users/Owenm/AppData/Local/MiKTeX/pdftex/config/pdftex.map}{UGBK.sfd}{Unicode.sfd}) [1
 
 ] (HW1.aux) ) 
 Here is how much of TeX's memory you used:
- 4360 strings out of 478699
- 83519 string characters out of 2846961
- 387869 words of memory out of 3000000
- 22358 multiletter control sequences out of 15000+600000
+ 4127 strings out of 478864
+ 74487 string characters out of 2855690
+ 385863 words of memory out of 3000000
+ 21962 multiletter control sequences out of 15000+600000
  408460 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,5n,78p,768b,350s stack positions out of 5000i,500n,10000p,200000b,80000s
- <C:\Users\Owenm\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/Owenm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Owenm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Owenm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Owenm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Owenm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Owenm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Owenm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on HW1.pdf (1 page, 75881 bytes).
+ 76i,5n,82p,790b,350s stack positions out of 5000i,500n,10000p,200000b,80000s
+ <C:\Users\Owenm\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><D:/Program Files (x86)/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Program Files (x86)/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><D:/Program Files (x86)/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Program Files (x86)/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/Program Files (x86)/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on HW1.pdf (1 page, 59648 bytes).
 PDF statistics:
- 47 PDF objects out of 1000 (max. 8388607)
+ 37 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
