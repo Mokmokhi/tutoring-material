@@ -1,5 +1,6 @@
 \documentclass[12pt]{article}
 \usepackage{ctex}
+\usepackage{amsmath}
 \usepackage[a4paper, total={7in,9in}]{geometry}
 
 \begin{document}
@@ -9,5 +10,21 @@
 
     In this homework, we are going to solve a linear programming problem.
 
-    Continued from previous homework, we now have different constraints to 
+    Continued from previous homework, we now have different constraints to the company. Recall that the total expense of the company is estimated by $E=1000P+NS+350000$, where $P$ is the stock price, $N$ is the number of employees and $S$ is the salary of each employee.
+
+    \begin{enumerate}
+        \item For the relation of $N$ and $S$:\begin{align*}
+            \begin{cases}
+                0\leq N\leq 200\\
+                0\leq S\leq 40000\\
+                40000\leq S+200N \leq 60000
+            \end{cases}
+        \end{align*}
+        \begin{enumerate}
+            \item Sketch the region for the system of inequalities.
+            \item Find the minimum of $NS$.
+        \end{enumerate}
+        \item Now the proposal states that the company expenses is proposed to be $2000000$, and luckily it is approved by the employer. What will be the maximum residue (remaining budget) for the company in this proposal?
+        \item If the company residue is around maximum, at most how many more employees could be hired using residue under certain salary?
+    \end{enumerate}
 \end{document}
