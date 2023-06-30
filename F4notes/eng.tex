@@ -1,0 +1,442 @@
+\documentclass[12pt]{article}
+\usepackage{ctex}
+\usepackage{amsmath,amsthm}
+\usepackage{graphicx,float}
+\usepackage[a4paper, total={7in,9in}]{geometry}
+
+\graphicspath{{../image/}}
+
+\newtheorem*{theorem}{Theorem}
+\newtheorem{example}{Example}
+\newtheorem*{sol}{Solution}
+
+\begin{document}
+    \begin{center}
+        \textbf{Factorization}
+    \end{center}
+
+    Recall the concept of factors. From what we've learned in primary school, the factor of some number, say 18, is given by \begin{align*}
+        18&=1\times 18\\
+        &=2\times 9\\
+        &=3\times 6
+    \end{align*}
+    So, in this example, we have $1,2,3,6,9,18$ as factors of $18$. Similarly, when we proceed to polynomials, the concept of factorization still works, while the computation of factorization becomes unclear and required more insights of what a polynomial is.
+
+    Let us look at the following expressions. We know that \begin{align*}
+        x\cdot x=x^2
+    \end{align*} and therefore the following holds:\begin{align*}
+        x^2-2x&=x(x-2)\\
+        x^3+4x^2&=x^2(x+4)
+    \end{align*}
+
+    For who thinks the above expression is kind of ambiguous, let us remember the distributivity of numbers:\begin{align*}
+        a(b+c)&=ab+ac\\
+        (a+b)c&=ac+ab
+    \end{align*} and work the expressions backward. Always equip yourself with the concept that factorization is just the reverse engineering of expansion.
+
+    However, not every polynomial is simple as we have seen. For some expressions existing in Physics, we will encounter something like:\begin{align*}
+        x^2+3x+4&=0
+    \end{align*}
+
+    In order to find a way to solve for $x$, we need to learn about the methods. We will start from using identities we have learned before.
+
+    \begin{center}
+        \textbf{Factorization using identities}
+    \end{center}
+
+    Recall the following expansion:\begin{align*}
+        (x+y)^2&=x^2+2xy+y^2\\
+        (x-y)^2&=x^2-2xy+y^2\\
+        (x+y)(x-y)&=x^2-y^2
+    \end{align*}
+
+    We should always notice that the equal sign = is two-way meaningful, that is, whenever the left-hand side is equal to the right-hand side, the right-hand side is immediately equal to the left-hand side. Therefore, we may see the above in a reverse direction.\begin{align*}
+        x^2+2xy+y^2&=(x+y)^2\\
+        x^2-2xy+y^2&=(x-y)^2\\
+        x^2-y^2&=(x+y)(x-y)
+    \end{align*}
+
+    This is called the \textbf{factorization}.
+
+    \begin{example}
+        Factorize $x^2+2x+1$.
+    \end{example}
+    \textit{ Sol. }\begin{align*}
+        x^2+2x+1&=(x)^2+2(x)(1)+(1)^2\\
+        &=(x+1)^2
+    \end{align*}
+
+    \begin{example}
+        Factorize $x^2+4x+4$.
+    \end{example}
+    \textit{ Sol. }\begin{align*}
+        x^2+4x+4&=(x)^2+2(x)(2)+(2)^2\\
+        &=(x+2)^2
+    \end{align*}
+
+    \begin{example}
+        Factorize $x^2-2x+1$.
+    \end{example}
+    \textit{ Sol. }\begin{align*}
+        x^2-2x+1&=(x)^2-2(x)(1)+(1)^2\\
+        &=(x-1)^2
+    \end{align*}
+
+    \begin{example}
+        Factorize $x^2-4x+4$.
+    \end{example}
+    \textit{ Sol. }\begin{align*}
+        x^2-4x+4&=(x)^2-2(x)(2)+(2)^2\\
+        &=(x-2)^2
+    \end{align*}
+
+    \begin{example}
+        Factorize $x^2-1$.
+    \end{example}
+    \textit{ Sol. }\begin{align*}
+        x^2-1&=(x)^2-(1)^2\\
+        &=(x+1)(x-1)
+    \end{align*}
+
+    \begin{example}
+        Factorize $x^2-9$.
+    \end{example}
+    \textit{ Sol. }\begin{align*}
+        x^2-9&=(x)^2-(3)^2\\
+        &=(x+3)(x-3)
+    \end{align*}
+
+    We shall now be familiar with simple factorization. Let's practise with these basic identities.
+
+    \subsection*{Exercise}
+    \begin{enumerate}
+        \item Factorize the following:\begin{align*}
+            &a)\ x^2+6x+9&&b)\ x^2+8x+16&&c)\ x^2+10x+25&&d)\ x^2+16x+64\\
+            &e)\ 2x^2+12x+18&&f)\ 4x^2+32x+64&&g)\ 6x^2+60x+150&&h)\ 8x^2+128x+512\\
+            &i)\ x^3+6x^2+9x&&j)\ x^5+8x^4+16x^3&&k)\ x^8+10x^6+25x^4&&l)\ x^9+16x^5+64x\\
+        \end{align*}
+        \item Factorize the following:\begin{align*}
+            &a)\ x^2-6x+9&&b)\ x^2-8x+16&&c)\ x^2-10x+25&&d)\ x^2-16x+64\\
+            &e)\ 2x^2-12x+18&&f)\ 4x^2-32x+64&&g)\ 6x^2-60x+150&&h)\ 8x^2-128x+512\\
+            &i)\ x^3-6x^2+9x&&j)\ x^5-8x^4+16x^3&&k)\ x^8-10x^6+25x^4&&l)\ x^9-16x^5+64x\\
+        \end{align*}
+        \item Factorize the following:\begin{align*}
+            &a)\ x^2-9&&b)\ x^2-16&&c)\ x^2-25&&d)\ x^2-64\\
+            &e)\ 2x^2-18&&f)\ 4x^2-64&&g)\ 6x^2-150&&h)\ 8x^2-512\\
+            &i)\ x^3-9x&&j)\ x^5-16x^3&&k)\ x^8-25x^4&&l)\ x^9-64x\\
+        \end{align*}
+        \item Factorize the following:\begin{align*}
+            &a)\ x^2+2ax+a^2&&b)\ x^2+8x+16-b^2\\
+            &c)\ x^2+10x+25+y^2-2c+c^2&&d)\ ax^2+16a^2x+64a^3\\
+            &e)\ 2x^2+12xy+18y^2&&f)\ 4(x+y)^2+32(x^2-y^2)+64(x-y)^2
+        \end{align*}
+    \end{enumerate}
+
+    \begin{center}
+        \textbf{Factorization using more identities}
+    \end{center}
+
+    For more information to using identities, we will learn more expressions to familiarize ourselves with them.
+
+    We had expressions of degree 2, so we could also proceed to that of degree 3.\begin{align*}
+        (x+y)^3&=x^3+3x^2y+3xy^2+y^3\\
+        (x-y)^3&=x^3-3x^2y+3xy^2-y^3\\
+        (x+y)(x^2-xy+y^2)&=x^3+y^3\\
+        (x-y)(x^2+xy+y^2)&=x^3-y^3
+    \end{align*}
+
+    Just, to be clear of what is happening, we will give the expansions a clear proof.\begin{enumerate}
+        \item For $(x+y)^3=x^3+3x^2y+3xy^2+y^3$:\begin{align*}
+            (x+y)^3&=(x+y)(x+y)^2\\
+            &=(x+y)(x^2+2xy+y^2)\\
+            &=x^3+3x^2y+3xy^2+y^3
+        \end{align*}
+        \item For $(x-y)^3=x^3-3x^2y+3xy^2-y^3$:\begin{align*}
+            (x-y)^3&=(x-y)(x-y)^2\\
+            &=(x-y)(x^2-2xy+y^2)\\
+            &=x^3-3x^2y+3xy^2-y^3
+        \end{align*}
+        \item For $(x+y)(x^2-xy+y^2)=x^3+y^3$:\begin{align*}
+            (x+y)(x^2-xy+y^2)&=x^3+x^2y-x^2y-xy^2+xy^2+y^3\\
+            &=x^3+y^3
+        \end{align*}
+        \item For $(x-y)(x^2+xy+y^2)=x^3-y^3$:\begin{align*}
+            (x-y)(x^2+xy+y^2)&=x^3-x^2y+x^2y-xy^2+xy^2-y^3\\
+            &=x^3-y^3
+        \end{align*}
+    \end{enumerate}
+    
+    Let's look at some examples to familiarize ourselves to how these work.
+
+    \begin{example}
+        Factorize $x^3+3x^2+3x+1$.
+    \end{example}
+    \textit{ Sol. }\begin{align*}
+        x^3+3x^2+3x+1&=(x)^3+3(x)^2(1)+3(x)(1)^2+(1)^3\\
+        &=(x+1)^3
+    \end{align*}
+
+    \begin{example}
+        Factorize $x^3+6x^2+12x+8$.
+    \end{example}
+    \textit{ Sol. }\begin{align*}
+        x^3+6x^2+12x+8&=(x)^3+3(x)^2(2)+3(x)(2)^2+(2)^3\\
+        &=(x+2)^3
+    \end{align*}
+
+    \begin{example}
+        Factorize $x^3-3x^2+3x-1$.
+    \end{example}
+    \textit{ Sol. }\begin{align*}
+        x^3-3x^2+3x-1&=(x)^3-3(x)^2(1)+3(x)(1)^2-(1)^3\\
+        &=(x-1)^3
+    \end{align*}
+
+    \begin{example}
+        Factorize $x^3-6x^2+12x-8$.
+    \end{example}
+    \textit{ Sol. }\begin{align*}
+        x^3-6x^2+12x-8&=(x)^3-3(x)^2(2)+3(x)(2)^2-(2)^3\\
+        &=(x-2)^3
+    \end{align*}
+
+    \begin{example}
+        Factorize $x^3+1$.
+    \end{example}
+    \textit{ Sol. }\begin{align*}
+        x^3+1&=(x)^3+(1)^3\\
+        &=(x+1)(x^2-x+1)
+    \end{align*}
+
+    \begin{example}
+        Factorize $x^3+8$.
+    \end{example}
+    \textit{ Sol. }\begin{align*}
+        x^3+8&=(x)^3+(2)^3\\
+        &=(x+2)(x^2-2x+4)
+    \end{align*}
+
+    \begin{example}
+        Factorize $x^3-1$.
+    \end{example}
+    \textit{ Sol. }\begin{align*}
+        x^3-1&=(x)^3-(1)^3\\
+        &=(x-1)(x^2+x+1)
+    \end{align*}
+
+    \begin{example}
+        Factorize $x^3-8$.
+    \end{example}
+    \textit{ Sol. }\begin{align*}
+        x^3-8&=(x)^3-(2)^3\\
+        &=(x-2)(x^2+2x+4)
+    \end{align*}
+
+    We shall now be familiar with degree 3 factorization. Let's practise with these basic identities.
+
+    \subsection*{Exercise}
+    \begin{enumerate}
+        \item Factorize the following:\begin{align*}
+            &a)\ x^3+9x^2+27x+81&&b)\ x^3+12x^2+48x+64&&c)\ x^3+15x^2+75x+125\\
+            &d)\ 2x^3+18x^2+54x+162&&e)\ 3x^3+36x^2+144x+192&&f)\ 5x^3+75x^2+375x+625\\
+        \end{align*}
+        \item Factorize the following:\begin{align*}
+            &a)\ x^3-9x^2+27x-81&&b)\ x^3-12x^2+48x-64&&c)\ x^3-15x^2+75x-125\\
+            &d)\ 2x^3-18x^2+54x-162&&e)\ 3x^3-36x^2+144x-192&&f)\ 5x^3-75x^2+375x-625\\
+        \end{align*}
+        \item Factorize the following:\begin{align*}
+            &a)\ x^3+81&&b)\ x^3+12x^2+48x+64&&c)\ x^3+125\\
+            &d)\ 2x^3+162&&e)\ 3x^3+192&&f)\ 5x^3+625\\
+        \end{align*}
+        \item Factorize the following:\begin{align*}
+            &a)\ x^3-81&&b)\ x^3-64&&c)\ x^3-125\\
+            &d)\ 2x^3-162&&e)\ 3x^3-192&&f)\ 5x^3-625\\
+        \end{align*}
+    \end{enumerate}
+
+    \begin{center}
+        \textbf{Factorization using cross-method}
+    \end{center}
+
+    From now on, we will dive into the main question: How to factorize any quadratic (degree 2) polynomials in the form of $$x^2+px+q$$ or, to be more general, $$ax^2+bx+c$$ using rational thinking? We shall now suppose if a quadratic polynomial $x^2+px+q$ can be factorized into the form $$(x+a)(x+b)$$ then it is equivalent to saying $$(x+a)(x+b)=x^2+px+q$$ which if we proceed one step further, the result will be $$x+(a+b)x+ab=x^2+px+q$$
+
+    It should be clear to see that \begin{align*}
+        \begin{cases}
+            a+b=p\\
+            ab=q
+        \end{cases}
+    \end{align*}
+
+    This then gives us a hint that we should perform a factorization on the constant $q$ first, then try to figure out which pair of $a,b$ gives the true relation on $a+b=p$.
+
+    So we may now conclude the steps of investigation and familiarize ourselves with some examples.\begin{enumerate}
+        \item By comparing like terms, discover the $p,q$ in the expressions.
+        \item Try to factorize $q$, state every pair of factors.
+        \item Check the sum of each pair of factors. If one provides a true result on $a+b=p$, then it is the true pair we need.
+        \item Write down $(x+a)(x+b)$ as the factorized form.
+    \end{enumerate}
+
+    \begin{example}
+        Factorize $x^2+4x+3$.
+    \end{example}
+
+    \textit{ Sol.}Step 1: find $p$ and $q$.
+    \begin{align*}
+        p=4, q=3
+    \end{align*}
+    \indent \indent Step 2: Factorize $q$ (with negative pairs).
+    \begin{align*}
+        3&=1\cdot 3\\
+        &=(-1)\cdot(-3)
+    \end{align*}
+    \indent \indent Step 3: Check $a+b=p$ (with negative pairs).
+    \begin{align*}
+        1+3&=4\\
+        (-1)+(-3)&=-4
+    \end{align*}
+    \indent \indent \indent Since $p=4$, we have the factor pair $a=1,b=3$.\\
+    \indent \indent Step 4: Complete the factorization.
+    \begin{align*}
+        x^2+4x+3=(x+1)(x+3)
+    \end{align*}
+
+    We could check that the factorized expression is indeed expanding back to the original polynomial.\begin{align*}
+        (x+1)(x+3)&=x(x+3)+(x+3)\\
+        &=x^2+3x+x+3\\
+        &=x^2+4x+3
+    \end{align*}
+
+    This shows that our work is correctly given. Someone in the history consider the above steps could be refined in a compressed way of representation. We shall call it the \textbf{cross-method}.
+    
+    \begin{example}
+        Factorize $x^2+4x+3$ using cross-method.
+    \end{example}
+
+    \textit{ Sol.}As long as $3=1\cdot 3=(-1)\cdot(-3)$, we have 
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.6]{cross-method}
+    \end{figure}
+    \indent \indent That is, the factorization shows $x^2+4x+3=(x+1)(x+3)$.
+
+    From here, you should be familiar enough to cross-method. You may check your understanding of using cross-method by the following exercises.
+
+    \subsection*{Exercise}
+    \begin{enumerate}
+        \item Factorize the following using cross-method:\begin{align*}
+            &a)\ x^2+6x+8&&b)\ x^2+9x+18&&c)\ x^2+7x+6\\
+            &d)\ x^2-6x+8&&e)\ x^2-9x+18&&f)\ x^2-7x+6\\
+            &g)\ x^2+6x-27&&h)\ x^2+9x-22&&i)\ x^2+7x-30\\
+            &j)\ x^2-6x-27&&k)\ x^2-9x-22&&l)\ x^2-7x-30
+        \end{align*}
+        \item Factorize the following using cross-method:\begin{align*}
+            &a)\ 2x^2+12x+16&&b)\ 3x^2+27x+54&&c)\ 5x^2+35x+30\\
+            &d)\ 7x^2-42x+56&&e)\ -11x^2+99x-198&&f)\ -3x^2+21x-18
+        \end{align*}
+    \end{enumerate}
+
+    \begin{center}
+        \textbf{Solving quadratic equations by factor method}
+    \end{center}
+
+    To solve quadratic equations, we acknowledge the following:\begin{theorem}
+        If $ab=0$, then either $a=0$ or $b=0$.
+    \end{theorem}
+
+    It should be clear that from above theorem, we have when $(x-\alpha)(x-\beta)=0$, then $x-\alpha=0$ or $x-\beta=0$. This means the \textbf{solutions} to the equation are $x=\alpha$ or $x=\beta$.
+
+    \begin{example}
+        Solve $x^2-4x+3=0$.
+    \end{example}
+
+    \textit{ Sol. }By factorization, we have $(x-1)(x-3)=0$, then $x=1$ or $x=3$ are the solutions to the equation.
+
+    \begin{example}
+        Solve $x^2+4x+3=0$.
+    \end{example}
+
+    \textit{ Sol. }By factorization, we have $(x+1)(x+3)=0$, then $x=-1$ or $x=-3$ are the solutions to the equation.
+
+    We may also encounter double roots, i.e. duplicated solution to the equation. Then we can write the solution once only.
+
+    \begin{example}
+        Solve $x^2+4x+4=0$.
+    \end{example}
+
+    \textit{ Sol. }By factorization, we have $(x+2)^2=0$, then $x=-2$ is the solution to the equation.
+
+    \subsection*{Exercise}
+    \begin{enumerate}
+        \item Solve the following equations:\begin{align*}
+            &a)\ 2x^2+12x+16=0&&b)\ 3x^2+27x+54=0&&c)\ 5x^2+35x+30=0\\
+            &d)\ 7x^2-42x+56=0&&e)\ -11x^2+99x-198=0&&f)\ -3x^2+21x-18=0
+        \end{align*}
+        \item Solve the following equations:\begin{align*}
+            &a)\ x^2+6x+9=0&&b)\ x^2+8x+16=0&&c)\ x^2+10x+25=0\\
+            &d)\ x^2+16x+64=0&&e)\ 2x^2-12x+18=0&&f)\ 4x^2-32x+64=0\\
+            &g)\ 6x^2-60x+150=0&&h)\ 8x^2-128x+512=0&&i)\ x^3-9x=0\\
+            &j)\ x^5-16x^3=0&&k)\ x^8-25x^4=0&&l)\ x^9-64x=0
+        \end{align*}
+    \end{enumerate}
+
+    \begin{center}
+        \textbf{Solving quadratic equations using formula}
+    \end{center}
+
+    One should observe that not every quadratic polynomial can be factorized perfectly. For example, if the equation be like:$$x^2+6x-6=0$$
+
+    We could see for the left-hand side, if $x=0$, the expression computes $<0$; if $x=1$, the expression computes $>0$. You could imagine there must be some number $0<x<1$ so that the equation holds.
+    
+    For exact solution, one introduced the notation $\sqrt{k}$ for finding the solution to $x^2=k$. It is important to remember that both positive and negative numbers can be squared to become positive, i.e. $(\sqrt{x})^2=x$ and $(-\sqrt{x})^2=x$ if $x>0$.
+
+    For any quadratic equation in the form of $ax^2+bx+c=0$, one provides a solution in the following form:$$\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$where the plus or minus sign $\pm$ indicates two solutions in one writing. This means the above formula is representing, if $x$ satisfies the equation, then either $$x=\frac{-b+\sqrt{b^2-4ac}}{2a}\textrm{ or }x=\frac{-b-\sqrt{b^2-4ac}}{2a}$$ 
+    
+    The origination of the formula comes from completing square method, which is quite hard to understand. We will write it down abstractly as for the proof of quadratic formula, and concrete examples will be introduced later in the section of graphs of quadratic polynomials.
+
+    Here's the proof of quadratic formula:\begin{align*}
+        ax^2+bx+c&=0\\
+        a(x^2+\frac{b}{a}x)+c&=0\\
+        a(x^2+2\frac{b}{2a}x+\frac{b^2}{4a^2}-\frac{b^2}{4a^2})+c&=0\\
+        a(x+\frac{b}{2a})^2&=\frac{b^2-4ac}{4a}\\
+        (x+\frac{b}{2a})^2&=\frac{b^2-4ac}{4a^2}\\
+        x+\frac{b}{2a}&=\pm\frac{\sqrt{b^2-4ac}}{2a}\\
+        x&=\frac{-b\pm\sqrt{b^2-4ac}}{2a}
+    \end{align*}
+
+    We will go through some usage of quadratic formula.
+
+    \begin{example}
+        Solve $x^2+7x-9=0$ using quadratic formula.
+    \end{example}
+
+    \textit{ Sol.} Identifying $a=1$, $b=7$, $c=-9$, we have \begin{align*}
+        x&=\frac{-b\pm\sqrt{b^2-4ac}}{2a}\\
+        &=\frac{-7\pm\sqrt{7^2-4\cdot 1\cdot (-9)}}{2}\\
+        &=\frac{-7\pm\sqrt{85}}{2}
+    \end{align*}
+
+    \begin{example}
+        Solve $2x^2+3x-4=0$ using quadratic formula.
+    \end{example}
+
+    \textit{ Sol.} Identifying $a=2$, $b=3$, $c=-4$, we have \begin{align*}
+        x&=\frac{-b\pm\sqrt{b^2-4ac}}{2a}\\
+        &=\frac{-3\pm\sqrt{3^2-4\cdot 2\cdot (-4)}}{4}\\
+        &=\frac{-3\pm\sqrt{41}}{4}
+    \end{align*}
+
+    You may now try to solve any quadratic equation using quadratic formula.
+
+    \subsection*{Exercise}
+
+    \begin{enumerate}
+        \item Solve the following quadratic equation:\begin{align*}
+            &a)\ 3x^2-12x-26=0&&b)\ 7x^2-27x+54=0&&c)\ 4x^2+35x+1=0\\
+            &d)\ 2x^2-33x+6=0&&e)\ -11x^2+89x-18=0&&f)\ -3x^2+21x-18=0
+        \end{align*}
+        \item Solve the following quadratic equation in terms of $k$:\begin{align*}
+            &a)\ 3kx^2-x-2=0&&b)\ 7x^2-27x+k=0&&c)\ kx^2+35x+1=0\\
+            &d)\ 2x^2-3kx+6=0&&e)\ -11x^2+kx-k=0&&f)\ -kx^2+21x-k^2=0
+        \end{align*}
+    \end{enumerate}
+\end{document}
