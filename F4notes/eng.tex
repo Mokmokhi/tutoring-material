@@ -2,9 +2,12 @@
 \usepackage{ctex}
 \usepackage{amsmath,amsthm}
 \usepackage{graphicx,float}
+\usepackage{array}
 \usepackage[a4paper, total={7in,9in}]{geometry}
 
 \graphicspath{{../image/}}
+
+\renewcommand{\arraystretch}{1.8}
 
 \newtheorem*{theorem}{Theorem}
 \newtheorem{example}{Example}
@@ -438,5 +441,128 @@
             &a)\ 3kx^2-x-2=0&&b)\ 7x^2-27x+k=0&&c)\ kx^2+35x+1=0\\
             &d)\ 2x^2-3kx+6=0&&e)\ -11x^2+kx-k=0&&f)\ -kx^2+21x-k^2=0
         \end{align*}
+    \end{enumerate}
+
+    \begin{center}
+        \textbf{Nature of roots: the existence of real roots}
+    \end{center}
+
+    One should observe that the quadratic formula $$\frac{-b\pm \sqrt{b^2-4ac}}{2a}$$ consists of a square-root part, namely $b^2-4ac$, that affects the nature of roots very much. We gave it a name as \textbf{discriminant}, meaning the value of it discriminates the nature of roots. If this part is $\geq 0$, the quadratic formula returns a real number; if this part is $< 0$, then we will be facing a square-root of negative numbers. From the history it kills a lot of mathematicians, but from now on let us define a new notion for it.
+
+    We will define a new element call $i$ such that it satisfies the equation $$i^2=-1$$ and such that for any positive real number $k$, we can write $\sqrt{-k}=i\sqrt{k}$. We shall call $i$ the imaginary number as it could not be thought of as a real number. For something unreal, that is imaginary.
+
+    In this sense, for if $b^2-4ac<0$, we could have a suitable form of writing, in the form of $x+yi$, so that every solution to quadratic equation is well-written. We call this form of number a \textbf{complex number}, with $x,y$ to be some real numbers.
+
+    From here let us write down the conclusion to the reality of roots using a table:
+
+    \begin{center}
+        \begin{tabular}{|c|c|c|}
+            \hline
+            $\Delta=b^2-4ac$&Roots&Nature of roots\\
+            \hline
+            $>0$&$\dfrac{-b\pm\sqrt{\Delta}}{2a}$&2 distinct real roots\\
+            \hline
+            $=0$&$\dfrac{-b}{2a}$&1 double root\\
+            \hline
+            $<0$&$\dfrac{-b\pm\sqrt{-\Delta}i}{2a}$&No real roots (2 complex roots)\\
+            \hline
+        \end{tabular}
+    \end{center}
+
+    From this we can now easily determine the nature of roots before really computing the value of the roots.
+
+    \begin{example}
+        Determine the nature of roots of the following. If it has real root(s), solve for it.\begin{enumerate}
+            \item[(a)] $7x^2+5x-10=0$.
+            \item[(b)] $81x^2-18x+1=0$.
+            \item[(c)] $20x^2+19x+10=0$.
+        \end{enumerate}
+    \end{example}
+
+    \textit{ Sol.}\begin{enumerate}
+        \item[(a)] Checking the discriminant $\Delta=b^2-4ac=5^2-4(7)(-10)=305>0$, so it has 2 distinct real roots. By substituting the $\Delta$ back to the quadratic formula, we have \begin{align*}
+            x=\frac{-b\pm\sqrt{\Delta}}{2a}=\frac{-5\pm\sqrt{305}}{14}
+        \end{align*}
+        \item[(b)] Checking the discriminant $\Delta=b^2-4ac=(-18)^2-4(81)(1)=0$, so it has 1 double real root. By substituting the $\Delta$ back to the quadratic formula, we have \begin{align*}
+            x=\frac{-b}{2a}=\frac{18}{162}=\frac{1}{9}
+        \end{align*}
+        \item[(c)] Checking the discriminant $\Delta=b^2-4ac=19^2-4(20)(10)=-439<0$, so it has no real roots. 
+    \end{enumerate}
+
+    We also notice that if we know the nature of roots for some unknown quadratic equations, we could retrieve the unknowns by drawing out propositions on the discriminant.
+
+    \begin{example}
+        It is known that the quadratic equation $kx^2-4x+k=0$ has only one real root, with real number $k$. Solve the equation.
+    \end{example}
+
+    \textit{ Sol.}By checking the discriminant, we obtain the following:\begin{align*}
+        (-4)^2-4\cdot k\cdot k&=0\\
+        k&=\pm 2
+    \end{align*}
+    \indent \indent Therefore, the equation should be either $2x^2-4x+2=0$ or $-2x^2-4x-2=0$, and correspondingly having $x=2$ and $x=-2$ as root respectively.
+
+    \subsection*{Exercise}
+    \begin{enumerate}
+        \item Determine the nature of roots of the following quadratic equation:\begin{align*}
+            &a)\ -390x^2-988x+794=0&&b)\ 82x^2+290x+759=0&&c)\ -924x^2-708x+959=0\\
+            &d)\ -265x^2+336x-685=0&&e)\ 845x^2+396x-501=0&&f)\ -246x^2+16x-318=0
+        \end{align*}
+        \item If the following quadratic equations all have only one real root, find the value(s) of $k$.\begin{align*}
+            &a)\ kx^2-2x+9=0&&b)\ 82x^2+kx+79=0&&c)\ -24x^2-70x+4k=0\\
+            &d)\ -kx^2+36x-k=0&&e)\ 8kx^2+3kx-51=0&&f)\ 2kx^2+(3k-6)x-4k-8=0
+        \end{align*}
+    \end{enumerate}
+
+    \begin{center}
+        \textbf{Vieta's formula: relation between roots and coefficients}
+    \end{center}
+
+    We can now further dive into some kind of abstract-nonsense. In previous section, we found that discriminant tells us the nature of the roots of the quadratic equation, and if we see the roots counted with multiplicity, the number of roots is always being equal to 2. This is not so surprising because we can always think of factorizing a quadratic equation into a product of two linear factors, so our work could be done by assuming there is always 2 roots, either they are the same or distinct.
+
+    We shall now investigate the relation between roots and coefficients, so we have a new game created by Mathematicians called algebra. Let us assume that we have a quadratic equation in the form of $x^2+px+q=0$, and this equation has roots $\alpha$ and $\beta$, which may not be real but we could still represent them using complex numbers. For if we translate the words into mathematical presentation: $$(x-\alpha)(x-\beta)=0=x^2-px+q$$ It is clear that the left-hand side is exactly equal to the right-hand side. We then expand the left-hand side to the following form: $$x^2-(\alpha+\beta)x+\alpha\beta=x^2+px+q$$ This takes us to the relation between roots and coefficients by comparing like terms $$\begin{cases}
+        \alpha+\beta=-p\\ 
+        \alpha\beta=q
+    \end{cases}$$
+
+    The simultaneous equations above is a system of relation called the \textbf{Vieta's formula}, which has another name called the \textbf{sum of roots} for the first equation and \textbf{product of roots} for the second equation.
+
+    In order to generalize the relationship further to any quadratic equations in the form of $ax^2+bx+c=0$ with real numbers $a,b,c$, we take the following transformation $$ax^2+bx+c=0 \implies x^2+\frac{b}{a}x+\frac{c}{a}=0$$ so that the equation is identical to what we have investigated just a moment before by taking $p=\frac{b}{a}$ and $q=\frac{c}{a}$. Therefore, the general Vieta's formula becomes $$\begin{cases}
+        \alpha+\beta=-\frac{b}{a}\\ 
+        \alpha\beta=\frac{c}{a}
+    \end{cases}$$
+
+    \begin{example}
+        Find the sum of roots and product of roots for the quadratic equation $3x^2+2x+9=0$.
+    \end{example}
+
+    \textit{ Sol.}By letting $\alpha$ and $\beta$ to be the roots of the equation, using Vieta's formula we get $$\begin{cases}
+        \alpha+\beta=-\frac{2}{3}\\ 
+        \alpha\beta=\frac{9}{3}=3
+    \end{cases}$$
+
+    \begin{example}
+        Construct a quadratic equation with integral coefficients using $\frac{1}{2}$ and $\frac{2}{3}$ as roots.
+    \end{example}
+
+    \textit{ Sol.}Using Vieta's formula we get $$\begin{cases}
+        \alpha+\beta=\frac{1}{2}+\frac{2}{3}=\frac{5}{6}\\ 
+        \alpha\beta=\frac{1}{2}\cdot \frac{2}{3}=\frac{1}{3}
+    \end{cases}$$
+    \indent \indent Hence, the quadratic equation we need is given by $$x^2-(\alpha+\beta)x+\alpha\beta=0 \implies x^2-\frac{5}{6}x+\frac{1}{3}=0 \implies 6x^2-5x+2=0$$
+
+    \subsection*{Exercise}
+    \begin{enumerate}
+        \item Find the sum of roots and product of roots for the following quadratic equations:\begin{align*}
+            &a)\ -390x^2-988x+794=0&&b)\ 82x^2+290x+759=0&&c)\ -924x^2-708x+959=0\\
+            &d)\ -265x^2+336x-685=0&&e)\ 845x^2+396x-501=0&&f)\ -246x^2+16x-318=0\\
+            &g)\ kx^2-2x+9=0&&h)\ 82x^2+kx+79=0&&i)\ -24x^2-70x+4k=0\\
+            &j)\ -kx^2+36x-k=0&&k)\ 8kx^2+3kx-51=0&&l)\ 2kx^2+(3k-6)x-4k-8=0
+        \end{align*}
+        \item Construct, for each pair of roots stated below, a quadratic equation with integral coefficients respectively.\begin{enumerate}
+            \item $\frac{2}{5}$ and $-\frac{6}{7}$.
+            \item $\frac{3}{2}$ and $\frac{7}{4}$.
+            \item $4$ and $-4$.
+            \item $5$ and $-\frac{2}{7}$.
+        \end{enumerate}
     \end{enumerate}
 \end{document}
