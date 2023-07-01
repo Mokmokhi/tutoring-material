@@ -565,4 +565,174 @@
             \item $5$ and $-\frac{2}{7}$.
         \end{enumerate}
     \end{enumerate}
+
+    \begin{center}
+        \textbf{More about roots of equations (Optional)}
+    \end{center}
+
+    To construct a quadratic equation, we shall first figure out the roots of the required polynomial. Most of the times we are not going to be given roots, but we will need to compute from other given information.
+
+    \begin{example}
+        It is given that $\alpha$ and $\beta$ are roots of the quadratic polynomial $ax^2+bx+c$. Construct a quadratic polynomial with roots $\alpha^2$ and $\beta^2$ in terms of $a,b,c$.
+    \end{example}
+
+    \textit{ Sol.} To construct the required polynomial we shall find by Vieta's formula the value of $\alpha^2+\beta^2$ and $\alpha^2\beta^2$. It is known that from our assumption that \begin{align*}
+        \begin{cases}
+            \alpha+\beta=-\frac{b}{a}\\
+            \alpha\beta=\frac{c}{a}
+        \end{cases}
+    \end{align*}
+    Therefore, the required sum of roots and product of roots are \begin{align*}
+        \alpha^2+\beta^2&=(\alpha+\beta)^2-2\alpha\beta=\frac{b^2-2ac}{a^2}\\
+        \alpha^2\beta^2&=(\alpha\beta)^2=\frac{c^2}{a^2}
+    \end{align*}
+    which means the required polynomial is $$a^2x^2+(2ac-b^2)x+c^2$$
+
+    \begin{example}
+        It is given that $\begin{cases}
+                \beta^2-3\beta+2=0\\
+                \alpha^2-3\alpha+2=0
+            \end{cases}$, find the value of $(\alpha+1)(\beta+1)$.
+    \end{example}
+
+    \textit{ Sol.} The given condition is equivalent to saying $\alpha$ and $\beta$ are roots to the equation $x^2-3x+2$, hence by Vieta's formula we have \begin{align*}
+        \begin{cases}
+            \alpha+\beta=3\\
+            \alpha\beta=2
+        \end{cases}
+    \end{align*}
+    Then we may compute the answer:\begin{align*}
+        (\alpha+1)(\beta+1)&=\alpha\beta+(\alpha+\beta)+1\\
+        &=2+3+1\\
+        &=6
+    \end{align*}
+
+    \begin{example}
+        It is given that $\alpha$ and $\beta$ are real roots of the quadratic polynomial $ax^2+bx+c$, where $\alpha<\beta$. Find the following in terms of $a,b,c$.\begin{align*}
+            &a)\ \beta-\alpha&&b)\ \alpha^2-\beta^2&&c)\ \alpha^3+\beta^3\\
+            &d)\ a\beta^2+b\beta&&e)\ a\beta^2-b\alpha&&f)\ a(\beta-\alpha)^2+b(\beta+\alpha)+c
+        \end{align*}
+    \end{example}
+
+    \textit{ Sol.}\begin{enumerate}
+        \item[(a)] \begin{align*}
+            (\beta-\alpha)^2&=(\alpha+\beta)^2-4\alpha\beta\\
+            &=\frac{b^2-4ac}{a^2}\\
+            \beta-\alpha&=\frac{\sqrt{b^2-4ac}}{|a|}&(\beta-\alpha>0)
+        \end{align*} 
+        \item[(b)] \begin{align*}
+            \alpha^2-\beta^2&=(\alpha-\beta)(\alpha+\beta)\\
+            &=-\frac{\sqrt{b^2-4ac}}{|a|}\cdot \frac{-b}{a}\\
+            &=\frac{b\sqrt{b^2-4ac}}{a|a|}
+        \end{align*}
+        \item[(c)] \begin{align*}
+            \alpha^3+\beta^3&=(\alpha+\beta)(\alpha^2-\alpha\beta+\beta^2)\\
+            &=(\alpha+\beta)((\alpha+\beta)^2-3\alpha\beta)\\
+            &=(-\frac{b}{a})((-\frac{b}{a})^2-3\frac{c}{a})\\
+            &=\frac{3abc-b^3}{a^3}
+        \end{align*}
+        \item[(d)] $a\beta^2+b\beta=a\beta^2+b\beta+c-c=-c$.
+        \item[(e)] $\displaystyle a\beta^2-b\alpha=(a\beta^2+b\beta+c)-b\alpha-b\beta-c=-b(\alpha+\beta)-c=\frac{b^2}{a}-c=\frac{b^2-ac}{a}$.
+        \item[(f)] \begin{align*}
+            a(\beta-\alpha)^2+b(\beta+\alpha)+c&=a\beta^2-2a\alpha\beta+a\alpha^2+b\beta+b\alpha+c\\
+            &=(a\beta^2+b\beta+c)+(a\alpha^2+b\alpha+c)-2a\alpha\beta-c\\
+            &=2b-c
+        \end{align*}
+    \end{enumerate}
+
+    \begin{center}
+        \textbf{Graph of quadratic equations}
+    \end{center}
+
+    Let us now understand what is in fact a quadratic polynomial. Usually, we say a quadratic curve is a parabola, which comes up in Physics studies about motion of throwing an object.
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.8]{parabola.png}
+    \end{figure}
+
+    Seeing the y-axis as the tag for height from the ground, and seeing x-axis as the tag for horizontal distance, we obtain a trajectory for a throwing motion starting from $x=a$ to $x=b$ in the direction indicated by an arrow drawn on the figure. Recall some memory of speed and distance, we have \begin{align*}
+        x-a=v_x t
+    \end{align*}where $v_x$ indicates the horizontal speed. This modelling satisfies the condition for when $t=0$, $x=a$, and that $v_x$ is constant. We now have $t$ to be the tag for time and we know that the whole motion shares the same time tag, which means for vertical component (i.e. the height) also undergoes the same time parameter $t$, so that \begin{align*}
+        v_y=u_y-gt
+    \end{align*}
+    is a suitable modelling for the vertical component in which is meaning the vertical velocity is decreasing consistently with respect to the gravity. By the understanding from physicists that \begin{align*}
+        y=\frac{u_y+v_y}{2}t
+    \end{align*} we have the equation \begin{align*}
+        y=u_y t-\frac{1}{2}gt^2
+    \end{align*} and by simple substitution of $t=\frac{x-a}{v_x}$ into the equation for $y$ we have an equation for parabola in the form of \begin{align*}
+        y=ax^2+bx+c
+    \end{align*}
+
+    To investigate the properties of a quadratic curve we introduce the \textbf{method of completing square}:\begin{align*}
+        ax^2+bx+c&=a(x^2+\frac{b}{a}x)+c\\
+        &=a(x^2+2\frac{b}{2a}x+\frac{b^2}{4a^2}-\frac{b^2}{4a^2})+c\\
+        &=a(x+\frac{b}{2a})^2-\frac{b^2-4ac}{4a}\\
+        &=a(x+\frac{b}{2a})^2+\frac{4ac-b^2}{4a}
+    \end{align*}
+
+    One observation is that when $x+\dfrac{b}{2a}$ attains 0, the polynomial attains its extremum value (maximum or minimum), because for $(x+\frac{b}{2a})^2$ its minimum value is 0, and the polynomial in this form can be controlled by $x+\frac{b}{2a}$. The above form is called the \textbf{vertex form}. Using the vertex form, we can now conclude: \begin{itemize}
+        \item The \textbf{vertex} is at $(-\dfrac{b}{2a},\dfrac{4ac-b^2}{4a})$.
+        \item The \textbf{axis of symmetry} is $x=-\dfrac{b}{2a}$.
+        \item The \textbf{extremum value} is $\dfrac{4ac-b^2}{4a}$.
+    \end{itemize}
+
+    We may also notice that when the graph has minimum point, it should be opening upward:
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.6]{open_upward.png}
+    \end{figure}
+
+    and when the graph has maximum point, it should be opening downward:
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.6]{open_downward.png}
+    \end{figure}
+
+    \begin{example}
+        Using the method of completing square, determine the direction of opening, and find the vertex, axis of symmetry and the minimum value for the graph of $y=2x^2+3x+4$.
+    \end{example}
+
+    \textit{ Sol.}\begin{align*}
+        2x^2+3x+4&=2(x^2+\frac{3}{2}x)+4\\
+        &=2(x^2+2\frac{3}{4}x+\frac{9}{16}-\frac{9}{16})+4\\
+        &=2(x+\frac{3}{4})^2+\frac{23}{8}
+    \end{align*}
+    So, the graph is opening upward, has vertex at $(-\dfrac{3}{4},\dfrac{23}{8})$, axis of symmetry $x=-\dfrac{3}{4}$ and minimum value $\dfrac{23}{8}$.
+
+    \begin{example}
+        Find the vertex, axis of symmetry and the extremum value for the graph of $y=kx^2+4x+6$ in terms of $k$.
+    \end{example}
+
+    \textit{ Sol.}
+    By the formula deduced earlier, the graph has vertex at $(-\dfrac{2}{k},\dfrac{4k-4}{k})$, axis of symmetry $x=-\dfrac{2}{k}$ and extrmum value $\dfrac{4k-4}{k}$.
+
+    \subsection*{Exercise}
+    \begin{enumerate}
+        \item Using the method of completing square, determine the direction of opening, and find the vertex, axis of symmetry and the minimum value for the following graphs.\begin{align*}
+            &a)\ y=2x^2+12x+16&&b)\ y=3x^2+27x+54&&c)\ y=5x^2+35x+30\\
+            &d)\ y=7x^2-42x+56&&e)\ y=-11x^2+99x-198&&f)\ y=-3x^2+21x-18
+        \end{align*}
+        \item Find the vertex, axis of symmetry and the extremum value for the following graphs in terms of $k$.\begin{align*}
+            &a)\ y=kx^2-2x+9&&b)\ y=82x^2+kx+79&&c)\ y=-24x^2-70x+4k\\
+            &d)\ y=-kx^2+36x-k&&e)\ y=8kx^2+3kx-51&&f)\ y=2kx^2+(3k-6)x-4k-8
+        \end{align*}
+    \end{enumerate}
+
+    \pagebreak
+
+    \subsection*{Challenging questions}
+    \begin{enumerate}
+        \item Solve $8x^2+2x+3=2x^2-4$. You may represent your answer in surds and the form of complex number if needed.
+        \item Solve the equation $\dfrac{x-3}{2x-3}=\dfrac{7x+3}{2x-5}$. You may represent your answer in surds and the form of complex number if needed.
+        \item If $x^2-2ax+a^2=0$, find the value of $\dfrac{x}{a}$.
+        \item $\dfrac{x^{2002}+4x^{2001}}{4x^{2000}}=2449.25$.
+        \item Find the value of $\sqrt{6+\sqrt{6+\sqrt{6+\sqrt{6+\cdots}}}}$.
+        \item If $\alpha,\beta$ are roots of the equation $x^2-8x+11=0$, find the value of $\alpha^3+\alpha^2+\alpha+\beta^3+\beta^2+\beta$.
+        \item If $\alpha,\beta$ are real roots to the equation in $x$: $x^2-5x+a^2-2a+1=0$, find the value of $a$ such that $\alpha\beta$ is of minimal value.
+        \item Find the value of $\alpha^2+\beta^2+\gamma^2$ where $\alpha,\beta,\gamma$ are the roots of the equation $3x^3-2x^2+5x-7=0$.
+        \item Find the value(s) of the positive real number $a$ such that the graph of $$y=(a^2+1)x^2-2ax+10$$ has minimum value $\dfrac{451}{50}$ for $0<x<\dfrac{1}{2}$.
+    \end{enumerate}
 \end{document}

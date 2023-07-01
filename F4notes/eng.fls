@@ -498,13 +498,39 @@ INPUT ..\image\\cross-method.png
 INPUT ..\image\\cross-method.png
 INPUT ..\image\\cross-method.png
 INPUT ..\image\\cross-method.png
+INPUT ..\image\\parabola.png
+INPUT ..\image\\parabola.png
+INPUT ..\image\\parabola.png
+INPUT ..\image\\parabola.png
+INPUT ..\image\\parabola.png
+INPUT ..\image\\parabola.png
+INPUT ..\image\\parabola.png
+INPUT D:\Program Files (x86)\MiKTeX\fonts\tfm\jknappen\ec\tcrm1200.tfm
+INPUT ..\image\\open_upward.png
+INPUT ..\image\\open_upward.png
+INPUT ..\image\\open_upward.png
+INPUT ..\image\\open_upward.png
+INPUT ..\image\\open_upward.png
+INPUT ..\image\\open_upward.png
+INPUT ..\image\\open_upward.png
+INPUT ..\image\\open_downward.png
+INPUT ..\image\\open_downward.png
+INPUT ..\image\\open_downward.png
+INPUT ..\image\\open_downward.png
+INPUT ..\image\\open_downward.png
+INPUT ..\image\\open_downward.png
+INPUT ..\image\\open_downward.png
 INPUT eng.aux
+INPUT C:\Users\Owenm\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
+INPUT C:\Users\Owenm\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
 INPUT D:\Program Files (x86)\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT D:\Program Files (x86)\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT D:\Program Files (x86)\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
 INPUT D:\Program Files (x86)\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
 INPUT D:\Program Files (x86)\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
 INPUT D:\Program Files (x86)\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
+INPUT D:\Program Files (x86)\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi6.pfb
+INPUT D:\Program Files (x86)\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi6.pfb
 INPUT D:\Program Files (x86)\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb
 INPUT D:\Program Files (x86)\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb
 INPUT D:\Program Files (x86)\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
@@ -513,5 +539,7 @@ INPUT D:\Program Files (x86)\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
 INPUT D:\Program Files (x86)\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
 INPUT D:\Program Files (x86)\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT D:\Program Files (x86)\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT D:\Program Files (x86)\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
+INPUT D:\Program Files (x86)\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
 INPUT D:\Program Files (x86)\MiKTeX\fonts\type1\public\amsfonts\cm\cmti12.pfb
 INPUT D:\Program Files (x86)\MiKTeX\fonts\type1\public\amsfonts\cm\cmti12.pfb

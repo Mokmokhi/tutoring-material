@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.11.24)  1 JUL 2023 18:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.11.24)  1 JUL 2023 22:44
 entering extended mode
 **c:/Users/Owenm/Documents/GitHub/tutoring-material/F4Notes/eng.tex
 (c:/Users/Owenm/Documents/GitHub/tutoring-material/F4Notes/eng.tex
@@ -445,19 +445,36 @@ File: ../image//cross-method.png Graphic file (type png)
 <use ../image//cross-method.png>
 Package pdftex.def Info: ../image//cross-method.png  used on input line 321.
 (pdftex.def)             Requested size: 189.7102pt x 90.94044pt.
- [8] [9 <../image//cross-method.png>] [10] [11] [12] [13] [14] [15] [16] (eng.aux) ) 
+ [8] [9 <../image//cross-method.png>] [10] [11] [12] [13] [14] [15] [16] [17]
+<../image//parabola.png, id=66, 570.13pt x 310.15875pt>
+File: ../image//parabola.png Graphic file (type png)
+<use ../image//parabola.png>
+Package pdftex.def Info: ../image//parabola.png  used on input line 651.
+(pdftex.def)             Requested size: 456.10463pt x 248.12733pt.
+ [18 <../image//parabola.png>] [19]
+<../image//open_upward.png, id=77, 570.13pt x 310.15875pt>
+File: ../image//open_upward.png Graphic file (type png)
+<use ../image//open_upward.png>
+Package pdftex.def Info: ../image//open_upward.png  used on input line 684.
+(pdftex.def)             Requested size: 342.08064pt x 186.09668pt.
+<../image//open_downward.png, id=78, 570.13pt x 310.15875pt>
+File: ../image//open_downward.png Graphic file (type png)
+<use ../image//open_downward.png>
+Package pdftex.def Info: ../image//open_downward.png  used on input line 691.
+(pdftex.def)             Requested size: 342.08064pt x 186.09668pt.
+ [20 <../image//open_upward.png> <../image//open_downward.png>] [21] [22] (eng.aux) ) 
 Here is how much of TeX's memory you used:
- 5753 strings out of 478864
- 95598 string characters out of 2855690
+ 5783 strings out of 478864
+ 96336 string characters out of 2855690
  421952 words of memory out of 3000000
- 23527 multiletter control sequences out of 15000+600000
- 409749 words of font info for 46 fonts, out of 8000000 for 9000
+ 23553 multiletter control sequences out of 15000+600000
+ 410086 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 76i,13n,82p,825b,350s stack positions out of 5000i,500n,10000p,200000b,80000s
-<D:/Program Files (x86)/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Program Files (x86)/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/Program Files (x86)/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><D:/Program Files (x86)/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><D:/Program Files (x86)/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Program Files (x86)/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/Program Files (x86)/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Program Files (x86)/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on eng.pdf (16 pages, 143791 bytes).
+ 76i,14n,82p,825b,350s stack positions out of 5000i,500n,10000p,200000b,80000s
+ <C:\Users\Owenm\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><D:/Program Files (x86)/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Program Files (x86)/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/Program Files (x86)/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><D:/Program Files (x86)/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><D:/Program Files (x86)/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><D:/Program Files (x86)/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Program Files (x86)/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/Program Files (x86)/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Program Files (x86)/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><D:/Program Files (x86)/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on eng.pdf (22 pages, 193069 bytes).
 PDF statistics:
- 97 PDF objects out of 1000 (max. 8388607)
+ 137 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
