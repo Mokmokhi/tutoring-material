@@ -2,6 +2,7 @@
 \usepackage{ctex}
 \usepackage{amsmath,amsthm}
 \usepackage{graphicx,float}
+\usepackage{fancyhdr}
 \usepackage{array}
 \usepackage[a4paper, total={7in,9in}]{geometry}
 
@@ -9,11 +10,18 @@
 
 \renewcommand{\arraystretch}{1.8}
 
+\fancyhf{}
+\fancyhf[FL]{Copyright @MokOwen}
+\fancyhf[FC]{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{1pt}
+
 \newtheorem*{theorem}{Theorem}
 \newtheorem{example}{Example}
 \newtheorem*{sol}{Solution}
 
 \begin{document}
+    \pagestyle{fancy}
     \begin{center}
         \textbf{Factorization}
     \end{center}
@@ -35,13 +43,36 @@
     For who thinks the above expression is kind of ambiguous, let us remember the distributivity of numbers:\begin{align*}
         a(b+c)&=ab+ac\\
         (a+b)c&=ac+ab
-    \end{align*} and work the expressions backward. Always equip yourself with the concept that factorization is just the reverse engineering of expansion.
+    \end{align*} and work the expressions backward. Always equip yourself with the concept that factorization is just the reverse engineering of expansion.\begin{align*}
+        x(x-2)&=x\cdot x-x\cdot 2\\
+        &=x^2-2x\\
+        x^2(x+4)&=x^2\cdot x+x^2\cdot 4\\
+        &=x^3+4x^2
+    \end{align*}
+
+    Remember we can treat $x^2\cdot x$ as $x\cdot x\cdot x$, so 3 $x$'s multiplying together gives us $x^3$.
 
     However, not every polynomial is simple as we have seen. For some expressions existing in Physics, we will encounter something like:\begin{align*}
         x^2+3x+4&=0
     \end{align*}
 
     In order to find a way to solve for $x$, we need to learn about the methods. We will start from using identities we have learned before.
+
+    Let's check our understanding to factorization first.
+    \subsection*{Exercise}
+    \begin{enumerate}
+        \item List out all factors for the following numbers, including negatives:\begin{align*}
+            &a)\ 4&&b)\ 6&&c)\ 12&&d)\ 15\\
+            &e)\ 32&&f)\ 44&&g)\ 52&&h)\ 80
+        \end{align*}
+        \item Factorize the following by prime factorization:\begin{align*}
+            &a)\ 4&&b)\ 6&&c)\ 12&&d)\ 15\\
+            &e)\ 32&&f)\ 44&&g)\ 52&&h)\ 80
+        \end{align*}
+        \item Factorize the following:\begin{align*}
+            &a)\ x^2+x&&b)\ x-xy&&c)\ x^4+2x^2+2x&&d)\ x^3-2x
+        \end{align*}
+    \end{enumerate}
 
     \begin{center}
         \textbf{Factorization using identities}
@@ -59,7 +90,7 @@
         x^2-y^2&=(x+y)(x-y)
     \end{align*}
 
-    This is called the \textbf{factorization}.
+    This is called the \textbf{factorization with identities}.
 
     \begin{example}
         Factorize $x^2+2x+1$.
