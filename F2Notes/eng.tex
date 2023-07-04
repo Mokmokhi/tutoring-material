@@ -1,0 +1,333 @@
+\documentclass[12pt]{article}
+\usepackage{ctex}
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage{graphicx,float}
+\usepackage{fancyhdr}
+\usepackage{array}
+\usepackage[a4paper, total={7in,9in}]{geometry}
+
+\fancyhf{}
+\fancyhf[HL]{Pre S.2 Summer course}
+\fancyhf[FR]{P.\thepage}
+
+\newtheorem*{theorem}{Theorem}
+\newtheorem{example}{Example}
+\renewenvironment{proof}{\textit{Proof. }}{\hfill\qedsymbol}
+\newtheorem*{sol}{Solution}
+
+\begin{document}
+    
+    \pagestyle{fancy}
+    \begin{center}
+        \textbf{Algebra in one}
+    \end{center}
+
+    This summer we are going to take a look at more algebraic stuffs that are important to you in your secondary school lives.
+
+    We will start from polynomial.
+
+    \begin{center}
+        \textbf{Polynomial}
+    \end{center}
+
+    Most of the time when we are discussing about algebraic representations, we must have to deal with different kinds of combinations.
+
+    To start with, let's understand some definitions on algebraic operations. We could have any kinds of notation to represent unknowns, which we call them \textbf{algebra}, and we acknowledge the operations from what we had in numbers.
+
+    Let $x,y$ and $z$ be some unknowns. We have the \textbf{addition of algebra} in the form of $$x+y,x+z,y+z,x+y+z,$$ while the \textbf{subtraction of algebra} in the form of $$x-y,x-z,z-y.$$ Meanwhile, the \textbf{Multiplication of algebra} in the form of $$x\cdot y,x\cdot z,y\cdot z,x\cdot y\cdot z,$$ and \textbf{Division of algebra} in the form of $$\frac{x}{z},\frac{y}{z},\frac{x}{y}.$$
+
+    We pronounce them as if we were using numbers, because what algebra does is to replace everything in numerical notation in an abstract form of writing. Therefore, it should be easy to think of $x+y$ as `$x$ plus $y$', $x\cdot y$ as `$x$ times $y$'. A little reminder here is that we have already learnt to use fractions to represent the result of division, so in a long run we abuse the notation of fractions to represent the meaning of division. Another abuse of notation is that we could write $x\cdot y$ as $xy$ (omitting the product notation $\cdot$) when it is not a pure numerical multiplication, i.e. $3\cdot x$ is equivalent to $3x$ but $3\cdot 4$ cannot be written as $34$.
+
+    From here on, we accept the above notations to explain our concepts in the following sections.
+
+    For what a polynomial is, we first define a \textbf{monomial}. The phrase `mono-' is to represent the meaning of `one', and so that what is in fact meant by monomial is there is only one term in the whole expression. We have the following examples: \begin{align*}
+        &x&&xy&&xyz&&x^2y&&xy^2&&x^3y^2z
+    \end{align*}
+    and the non-examples of monomials:\begin{align*}
+        &x+y&&x^2-y&&\frac{x}{y}
+    \end{align*}
+
+    You should observe that a monomial only consists of multiplication, making sense of seeing multiplication as one object. For the non-examples, we shall give them some other name.
+
+    We have \textbf{binomial} to say an expression with two terms. For example:\begin{align*}
+        x+y,x-y,x^2-x,y^3+xyz
+    \end{align*}
+    are all binomials. The phrase `bi-' means `two', and thus binomial means the polynomial with two terms, for terms should be separated by + or - sign.
+
+    We also have \textbf{trinomial} to say an expression with three terms. For example:\begin{align*}
+        x+y+z,x-y-z,x^2-x+y,y^3+xyz-z^2x
+    \end{align*}
+    are all trinomials. The phrase `tri-' means `three', and thus trinomial means the polynomial with three terms, for terms should be separated by + or - sign.
+
+    All-in-all, we may think of any polynomial should be some arithmetic in algebra consists of +,- and $\cdot$, and there should not be any division in the expressions. However, one would be confused when they are encountering the following polynomial:\begin{align*}
+        x^3y+2x-8+7x-9x^3y+6
+    \end{align*}
+
+    For the above polynomial, it is not a polynomial with 6 terms, but a trinomial if you think carefully that every expression should be understood when and only when they are in the simplest form. Let us do the simplification:\begin{align*}
+        x^3y+2x-8+7x-9x^3y+6&=x^3y-9x^3y+2x+7x-8+6\\
+        &=(x^3y-9x^3y)+(2x+7x)+(-8+6)\\
+        &=(-8x^3y)+(9x)+(-2)\\
+        &=-8x^3y+9x-2
+    \end{align*}
+    Therefore, we only count 3 terms here, which shows that this is a trinomial.
+
+    The next step to understand a polynomial is to identify the properties of a polynomial. For properties, we mean the following:\begin{itemize}
+        \item Number of terms;
+        \item Degree of the polynomial;
+        \item Coefficients of each term.
+    \end{itemize}
+
+    To count the number of terms, as we discuss before, is to first simplify the expression, then count how many terms are there separated by + or - sign. We fast-forward this point and send it to exercise section.
+
+    To find the degree of a polynomial, it will be quite a complicated task. The main idea is to find out the maximal power over the terms in polynomial. Let us look at how to determine the degree of a monomial first. Suppose we are having the following monomials:\begin{align*}
+        &x&&x^2&&xy&&x^2y&&xyz&&x^2y^3z^4
+    \end{align*}
+
+    For the above monomials, we have $x$ to be a degree 1 polynomials (monomial is also a polynomial), as we could see its power is 1 so that $x^1=x$. Similarly, we have $x^2$ to be a degree 2 polynomials, as its power is 2.
+
+    For $xy$, we have it to be a degree 2 polynomial, because we should acknowledge the fact that $xy$ has a larger power than $x$, so in general we sum the powers in that terms up to produce the degree of a monomial. In this case, we have $x$ of power 1 and $y$ of power 1, summing up for $xy$ to be of degree 2. Remember this only happens when it is monomial.
+
+    Then we shall now understand the degree of $x^2y$ is 3, as $x^2$ is of degree 2 and $y$ is of degree 1.
+
+    Similarly, we have $xyz$ of degree 3, because each of the unknowns has degree 1, and sum up to be degree 3.
+
+    As a conclusion, we take a look at the last expression. For $x^2y^3z^4$, we take $x^2$ of degree 2, $y^3$ of degree 3, and $z^4$ of degree 4. Summing up the degrees returns the degree of the whole expression, which is 9.
+
+    So far so good, we finally could encounter the degree of any polynomials. For simplicity, let us take the following example:\begin{align*}
+        xy+x^2y^3z^4+x^2+y
+    \end{align*}
+
+    Remember we are going to find out the maximal power over the terms in this polynomial. Based on what we have done before, we could easily write down the degree of each term in the order $2,9,2,1$. The maximal degree is obviously 9, so the degree of the whole polynomial is 9. We say this polynomial is of degree 9.
+
+    Last but not least, we have to deal with coefficients. For simplicity, we will first look at some one variable polynomials, then move to multivariable version.
+
+    Let say we have the following monomial:\begin{align*}
+        3xy
+    \end{align*} we say the coefficient of $xy$ is 3, because the number multiplying to the expression $xy$ is 3. However, we do not say the coefficient of $x$ is $3y$ or coefficient of $y$ is $3x$, because what we want for coefficient is to find the number of algebraic expressions, not a naive multiplier.
+
+    So, in the following polynomial:\begin{align*}
+        4x+4y+5xy
+    \end{align*}
+    The coefficient of $x$ is 4, coefficient of $y$ is 4, and coefficient of $xy$ is 5.
+
+    Another example is:\begin{align*}
+        x^2+3x+6
+    \end{align*}
+    The coefficient of $x^2$ is 1 and the coefficient of $x$ is 3. The terms without any algebra but a number is called the \textbf{constant}, which will not be affected by any change in unknown values. This time, we will say the constant term is 6.
+
+    Return to a usual polynomial, if we have \begin{align*}
+        xy+x^2y^3z^4+x^2+y
+    \end{align*}
+    We say the coefficient of $xy$ is 1, the coefficient of $x^2y^3z^4$ is 1, the coefficient of $x^2$ is 1, the coefficient of $x$ is 1, and the constant term is 0.
+
+    Just a kindly reminder for you, that when we are seeing \begin{align*}
+        xy+x^2y^3z^4+x^2+y+xy+x^2y^3z^4+x^2+y
+    \end{align*}
+    we shall simplify the expression first and count the coefficients. This time, we will say the coefficient of $xy$ is 2, the coefficient of $x^2y^3z^4$ is 2, the coefficient of $x^2$ is 2, the coefficient of $x$ is 2, and the constant term is 0.
+
+    Let us consolidate our understanding with a table of exercises.
+
+    \subsection*{Exercise}
+    For the following exercise, the first example is drawn for you. Please fill in the other blank spaces according to what you have learnt.
+    \begin{center}
+        \begin{tabular}{|c|c|c|c|c|c|c|c|}
+            \hline
+            Expression&Is monomial&Degree&Coefficient of $x$&Constant term\\
+            \hline
+            $xy+x^2y^3z^4+x^2+y$&false&9&0&0\\
+            \hline
+            $xy$&&&&\\
+            \hline
+            $x$&&&&\\
+            \hline
+            $x^2+y$&&&&\\
+            \hline
+            $x^2+2xy+x$&&&&\\
+            \hline
+            $3x^2+4y+10$&&&&\\
+            \hline
+            $-3x-8$&&&&\\
+            \hline
+            $2x^2-7y$&&&&\\
+            \hline
+        \end{tabular}
+    \end{center}
+
+    \begin{center}
+        \textbf{Expansion and simplification of algebraic expressions}
+    \end{center}
+
+    \subsubsection*{Commutativity}
+
+    We acknowledge the following fact:\begin{align*}
+        xy=yx
+    \end{align*}
+    For if two terms could be written with the same algebraic expressions with the same degrees, they are called \textbf{like terms}. Coefficients do not affect the determination of like terms, bacause the meaning of like terms is to help determine the addition of coefficients.
+
+    \begin{example}
+        Which of the following terms are like terms?\begin{align*}
+            &4xyz&&3xy^2z&&5xzy
+        \end{align*}
+    \end{example}
+
+    \textit{ Sol.} $4xyz$ and $5xzy$ are like terms, as $xyz=xzy$.
+
+    \subsubsection*{Distributivity}
+    We acknowledge the following facts:\begin{align*}
+        x(y+z)&=xy+xz\\
+        (x+y)z&=(xz+yz)
+    \end{align*}
+
+    \begin{example}
+        $3(x+2)=3x+3\cdot 2=3x+6$.
+    \end{example}
+    
+    \begin{example}
+        $y(x+2)=yx+y\cdot 2=xy+2y$.
+    \end{example}
+    
+    \begin{example}
+        $(x+1)(x+2)=x(x+2)+1\cdot (x+2)=x^2+2x+x+2=x^2+3x+2$.
+    \end{example}
+    
+    \begin{example}
+        $(a+b)(x+y)=a(x+y)+b(x+y)=ax+ay+bx+by$.
+    \end{example}
+
+    \subsubsection*{Fractions}
+
+    A fraction is always of the form \begin{align*}
+        \frac{a}{b}
+    \end{align*} with $a,b$ having no common factors.
+
+    We should remember the learning of fractions in primary schools and inherit the operations from that:\begin{align*}
+        \frac{a}{b}+\frac{x}{y}=\frac{ay}{by}+\frac{bx}{by}=\frac{ay+bx}{by}
+    \end{align*}
+
+    \begin{example}
+        $\dfrac{6x}{2}=3x$.
+    \end{example}
+
+    \begin{example}
+        $\dfrac{18x}{4}=\dfrac{9x}{2}$.
+    \end{example}
+
+    \begin{example}
+        $\dfrac{x}{2}+\dfrac{x}{3}=\dfrac{3x}{6}+\dfrac{2x}{6}=\dfrac{5x}{6}$.
+    \end{example}
+
+    \begin{example}
+        $\dfrac{x}{2}-\dfrac{x}{3}=\dfrac{3x}{6}-\dfrac{2x}{6}=\dfrac{x}{6}$.
+    \end{example}
+
+    \begin{example}
+        $\dfrac{x}{x+2}+\dfrac{x}{3}=\dfrac{3x}{3(x+2)}+\dfrac{x(x+2)}{3(x+2)}=\dfrac{x^2+5x}{3x+6}$.
+    \end{example}
+
+    \begin{example}
+        $\dfrac{x-1}{x+1}-\dfrac{x+1}{x-1}=\dfrac{(x+1)^2}{(x-1)(x+1)}-\dfrac{(x-1)^2}{(x-1)(x+1)}=\dfrac{4x}{x^2-1}$.
+    \end{example}
+
+    \subsection*{Exercise}
+    Reference: Percy Yeung Maths Exercise S2 Ch2 \& Ch3
+
+    \begin{center}
+        \textbf{Introductory Identities}
+    \end{center}
+
+    In mathematics, we always want to do derivations of formulae using algebra, so that we can take the formulae everywhere and plug numbers in whenever we need. We then say for a bunch of algebraic equalities that must be true, they are the identities useful for derivation and proofs of formulae.
+
+    For each identity, we requires a proof using basic algebra logic, so that they are valid from fundamentals. The key point is, all your buildings must have a strong basis and strong connections.
+
+    Everything starts by a hypothetic equality. When the equality is proven to be true, it becomes an identity, which we will put a `$\equiv$' sign instead of a `$=$' sign to emphasis the identical statement.
+
+    We will go through some demonstrations and practise a lot.
+
+    \begin{example}
+        Prove that $x(x+1)\equiv x^2+x$.
+    \end{example}
+
+    \begin{proof}
+        \begin{align*}
+            L.H.S.&=x(x+1)\\
+            &=x\cdot x+x\cdot 1\\
+            &=x^2+x\\
+            &=R.H.S.
+        \end{align*}
+        $\because\ L.H.S.=R.H.S.$\\
+        $\therefore x(x+1)\equiv x^2+x$
+    \end{proof}
+
+    \begin{example}
+        Prove that $x^2(x+2)\equiv x^3+2x^2$.
+    \end{example}
+
+    \begin{proof}
+        \begin{align*}
+            L.H.S.&=x^2(x+2)\\
+            &=x^2\cdot x+x\cdot 2\\
+            &=x^3+2x^2\\
+            &=R.H.S.
+        \end{align*}
+        $\because\ L.H.S.=R.H.S.$\\
+        $\therefore x^2(x+2)\equiv x^3+2x^2$
+    \end{proof}
+
+    \begin{example}
+        Prove that $x^2(x+2)+1\equiv x^3+2(x^2+\dfrac{1}{2})$.
+    \end{example}
+
+    \begin{proof}
+        \begin{align*}
+            L.H.S.&=x^2(x+2)+1\\
+            &=x^2\cdot x+x\cdot 2+1\\
+            &=x^3+2x^2+1\\
+            R.H.S.&=x^3+2(x^2+\dfrac{1}{2})\\
+            &=x^3+2\cdot x^2+2\cdot\dfrac{1}{2}\\
+            &=x^3+2x^2+1\\
+        \end{align*}
+        $\because\ L.H.S.=R.H.S.$\\
+        $\therefore x^2(x+2)+1\equiv x^3+2(x^2+\dfrac{1}{2})$
+    \end{proof}
+
+    We would also like to consider some given situations and determine what should be the of the coefficients in a particular identity. We will introduce a technique called \textbf{comparing like terms} 
+
+    \begin{example}
+        Given that $ax^2+bx+c\equiv 2x^2+3x+1$. Find the value of $a,b,c$.
+    \end{example}
+
+    \textit{ Sol.} $a=2, b=3, c=1$.
+
+    \begin{example}
+        Given that $a(x-h)^2+k\equiv 4x^2+6x+9$. Find the value of $a,h,k$.
+    \end{example}
+
+    \textit{ Sol.} By expanding the L.H.S., we obtain\begin{align*}
+        a(x-h)^2+k&=a(x-h)(x-h)+k\\
+        &=a[x(x-h)-h(x-h)]+k\\
+        &=a(x^2-hx-hx+h^2)+k\\
+        &=a(x^2-2hx+h^2)+k\\
+        &=ax^2-2ahx+ah^2+k
+    \end{align*}
+    By comparing like terms, we have\begin{align*}
+        a&=4\\
+        -2ah&=6\\
+        ah^2+k&=9
+    \end{align*}
+    Therefore, $a=4$ can be easy seen, and \begin{align*}
+        h&=\frac{6}{-2\cdot 4}=-\frac{3}{4}\\
+        k&=9-4\cdot (-\frac{3}{4})^2=\frac{27}{4}
+    \end{align*}
+
+    \begin{example}
+        Given that $x-k\equiv (k-1)x+c$. Find the value of $k,c$.
+    \end{example}
+
+    \textit{ Sol.} By comparing like terms, we have\begin{align*}
+        1&=k-1\\
+        -k&=c
+    \end{align*} Then $k=2,c=-2$.
+
+    \subsection*{Exercise}
+    Reference: Percy Yeung Maths Exercise S2 Ch4
+    \end{document}
