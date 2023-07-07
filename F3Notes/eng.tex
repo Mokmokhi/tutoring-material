@@ -116,19 +116,98 @@
         Find the probability of getting a sum equal 7 when rolling two fair dice at the same time.
     \end{example}
 
+    \textit{ Sol.} We could put a table here to check every combination from rolling two fair dice at the same time.
+    \begin{center}
+        \begin{tabular}{c||c|c|c|c|c|c}
+            $+$&1&2&3&4&5&6\\
+            \hline
+            \hline
+            1&2&3&4&5&6&7\\
+            \hline
+            2&3&4&5&6&7&8\\
+            \hline
+            3&4&5&6&7&8&9\\
+            \hline
+            4&5&6&7&8&9&10\\
+            \hline
+            5&6&7&8&9&10&11\\
+            \hline
+            6&7&8&9&10&11&12\\
+        \end{tabular}
+    \end{center} 
+    We should see that only 6 cases satisfy our target results, namely $(1,6),(2,5),(3,4),(4,3),(5,2),(6,1)$, over all 36 cases. That means $$P_{\textrm{rolling 2 dice}}(\textrm{Sum}=7)=\frac{6}{36}=\frac{1}{6}$$
+
     \begin{example}
         Find the probability of getting a product equal 12 when rolling two fair dice at the same time. 
     \end{example}
+
+    \textit{ Sol.} We could put a table here to check every combination from rolling two fair dice at the same time.
+    \begin{center}
+        \begin{tabular}{c||c|c|c|c|c|c}
+            $\times$&1&2&3&4&5&6\\
+            \hline
+            \hline
+            1&1&2&3&4&5&6\\
+            \hline
+            2&2&4&6&8&10&12\\
+            \hline
+            3&3&6&9&12&15&18\\
+            \hline
+            4&4&8&12&16&20&24\\
+            \hline
+            5&5&10&15&20&25&30\\
+            \hline
+            6&6&12&18&24&30&36\\
+        \end{tabular}
+    \end{center} 
+    We should see that only 4 cases satisfy our target results, namely $(2,6),(3,4),(4,3),(6,2)$, over all 36 cases. That means $$P_{\textrm{rolling 2 dice}}(\textrm{Product}=7)=\frac{4}{36}=\frac{1}{9}$$
 
     \begin{example}
         Find the probability of getting first prize in mark six.
     \end{example}
 
+    \textit{ Sol.} We list out the number of possible results in each draw.\begin{enumerate}
+        \item 49 numbers.
+        \item 48 numbers left.
+        \item 47 numbers left.
+        \item 46 numbers left.
+        \item 45 numbers left.
+        \item 44 numbers left.
+    \end{enumerate}
+    That means if we see each guess as a batch of 6 numbers, we will need to pick one and only one combination $$(x_1,x_2,x_3,x_4,x_5,x_6)$$
+    with permutations from a total of $49\cdot48\cdot47\cdot46\cdot45\cdot44=10068347520$ possible drawings. Computing the number of self permutation, we have $6\cdot5\cdot4\cdot3\cdot2\cdot1=720$ kinds of permutations. That means, the probability of winning a first prize is $$P_{\textrm{Mark six}}(\textrm{first prize})=\frac{720}{10068347520}=\frac{1}{13983816}$$
+
     \begin{example}
-        Find the probability of hitting the central region in a shooting board.
+        Find the probability of hitting the central region in a shooting board. Assume that the shooting board is a circular board of radius $R$ and the central region is a circular region of radius $r$.
     \end{example}
+
+    \textit{ Sol.} We could relate the number of target points as the area of target region. Therefore, the probability of hitting the central region is $$P_{\textrm{hitting}}(\textrm{central})=\frac{\pi r^2}{\pi R^2}=\frac{r^2}{R^2}$$
 
     \begin{center}
         \textbf{Expected value}
     \end{center}
+
+    What do we mean by `Expectation'? In mathematics, expectation usually refers to average value in a long run. To calculate the average value, we need to recall the formula $$Avg.=\frac{\textrm{total value}}{\textrm{total number}}$$ But there is some relation between the formula and the meaning of probability. Let us investigate the relation with some examples.
+
+    \begin{example}
+        Compute the average gain of a coin-flipping game when it results in 5 top and 3 bottom, with top gains 2 points and bottom gain 1 point.
+    \end{example}
+
+    \textit{ Sol.} $Avg.=\dfrac{5\times 2+3\times 1}{5+3}=\dfrac{5}{8}(2)+\dfrac{3}{8}(1)=\dfrac{13}{8}$.
+
+    When our mindset changes to expected value, we will talk about theoretical probability, which means the probability in ideal case.
+
+    With hints from the above calculation, we will accept the formula of expected value to be $$E=P(X_1)\cdot X_1+P(X_2)\cdot X_2\cdots P(X_k)\cdot X_k$$ where $X_i$ denotes the value of the k-th event.
+
+    \begin{example}
+        Compute the expected value of one-turn coin-flipping game, with top gains 2 points and bottom gain 1 point.
+    \end{example}
+
+    \textit{ Sol.} The theoretical probability of flipping top is $\dfrac{1}{2}$, as same as flipping bottom side. Then the expected value of one-turn coin-flipping game is $$E=\frac{1}{2}(2)+\frac{1}{2}(1)=\frac{3}{2}$$
+
+    \begin{example}
+        Compute the expected value of 10-turns coin-flipping game, with top gains 2 points and bottom gain 1 point.
+    \end{example}
+
+    \textit{ Sol.} By previous example, the expected value of one-turn coin-flipping game is $E=\frac{3}{2}$ Then, 10-turns will result in $10E=10\cdot\dfrac{3}{2}=15$ points in expectation.
 \end{document}
