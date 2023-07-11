@@ -15,8 +15,7 @@
 \fancyhf[FR]{P.\thepage}
 
 \newtheorem*{theorem}{Theorem}
-\newtheorem{example}{Example}
-\newtheorem*{sol}{Solution}
+\newtheorem{example}{示例}
 
 \begin{document}
     \pagestyle{fancy}
@@ -24,74 +23,74 @@
         \textbf{Factorization}
     \end{center}
 
-    Recall the concept of factors. From what we've learned in primary school, the factor of some number, say 18, is given by \begin{align*}
+    回顧因數分解概念，根據我們在小學學到的知識，某個數字（如18）的因數可用下列方式表示： \begin{align*}
         18&=1\times 18\\
         &=2\times 9\\
         &=3\times 6
     \end{align*}
-    So, in this example, we have $1,2,3,6,9,18$ as factors of $18$. Similarly, when we proceed to polynomials, the concept of factorization still works, while the computation of factorization becomes unclear and required more insights of what a polynomial is.
+    因此，在這個例子中，我們有 $1,2,3,6,9,18$ 作為 $18$ 的因子。同樣地，當我們進入多項式的討論時，因數分解的概念仍然有效，但因式分解的運算會變得不清楚，而需要對多項式本質有更多理解。
 
-    Let us look at the following expressions. We know that \begin{align*}
+    觀察下列算式，已知 \begin{align*}
         x\cdot x=x^2
-    \end{align*} and therefore the following holds:\begin{align*}
+    \end{align*} 因此\begin{align*}
         x^2-2x&=x(x-2)\\
         x^3+4x^2&=x^2(x+4)
     \end{align*}
 
-    For who thinks the above expression is kind of ambiguous, let us remember the distributivity of numbers:\begin{align*}
+    若認為上面的表達式有點含糊，回憶分配律：\begin{align*}
         a(b+c)&=ab+ac\\
         (a+b)c&=ac+ab
-    \end{align*} and work the expressions backward. Always equip yourself with the concept that factorization is just the reverse engineering of expansion.\begin{align*}
+    \end{align*} 並將倒推表達式。注意：因式分解只是展開數式的反向操作。\begin{align*}
         x(x-2)&=x\cdot x-x\cdot 2\\
         &=x^2-2x\\
         x^2(x+4)&=x^2\cdot x+x^2\cdot 4\\
         &=x^3+4x^2
     \end{align*}
 
-    Remember we can treat $x^2\cdot x$ as $x\cdot x\cdot x$, so 3 $x$'s multiplying together gives us $x^3$.
+    由於 $x^2\cdot x$ 可被視爲 $x\cdot x\cdot x$, 因此 3 個 $x$ 相乘可得 $x^3$.
 
-    However, not every polynomial is simple as we have seen. For some expressions existing in Physics, we will encounter something like:\begin{align*}
+    然而，並非每個多項式都像我們所看到的那樣簡單。對於物理學中存在的一些表達式，我們會遇到類似這樣的情況：\begin{align*}
         x^2+3x+4&=0
     \end{align*}
 
-    In order to find a way to solve for $x$, we need to learn about the methods. We will start from using identities we have learned before.
+    我們有不同的方法以求$x$的值。接下來將使用之前學過的恆等式。
 
-    Let's check our understanding to factorization first.
+    讓我們先溫習一下我們對因式分解的理解。
     \subsection*{Exercise}
     \begin{enumerate}
-        \item List out all factors for the following numbers, including negatives:\begin{align*}
+        \item 例出下列數字的所有因子，包括負數：\begin{align*}
             &a)\ 4&&b)\ 6&&c)\ 12&&d)\ 15\\
             &e)\ 32&&f)\ 44&&g)\ 52&&h)\ 80
         \end{align*}
-        \item Factorize the following by prime factorization:\begin{align*}
+        \item 對下列各項進行質因數分解：\begin{align*}
             &a)\ 4&&b)\ 6&&c)\ 12&&d)\ 15\\
             &e)\ 32&&f)\ 44&&g)\ 52&&h)\ 80
         \end{align*}
-        \item Factorize the following:\begin{align*}
+        \item 因式分解：\begin{align*}
             &a)\ x^2+x&&b)\ x-xy&&c)\ x^4+2x^2+2x&&d)\ x^3-2x
         \end{align*}
     \end{enumerate}
 
     \begin{center}
-        \textbf{Factorization using identities}
+        \textbf{以恆等式進行因式分解}
     \end{center}
 
-    Recall the following expansion:\begin{align*}
+    回顧以下展開式：\begin{align*}
         (x+y)^2&=x^2+2xy+y^2\\
         (x-y)^2&=x^2-2xy+y^2\\
         (x+y)(x-y)&=x^2-y^2
     \end{align*}
 
-    We should always notice that the equal sign = is two-way meaningful, that is, whenever the left-hand side is equal to the right-hand side, the right-hand side is immediately equal to the left-hand side. Therefore, we may see the above in a reverse direction.\begin{align*}
+    我們應該注意到，等號是雙向有意義的，也就是說，每當左手邊等於右手邊，右手邊就立即等於左手邊。因此，我們可能會從相反的方向來看上面的情況。\begin{align*}
         x^2+2xy+y^2&=(x+y)^2\\
         x^2-2xy+y^2&=(x-y)^2\\
         x^2-y^2&=(x+y)(x-y)
     \end{align*}
 
-    This is called the \textbf{factorization with identities}.
+    這稱為\textbf{恆等式因式分解}。
 
     \begin{example}
-        Factorize $x^2+2x+1$.
+        因式分解 $x^2+2x+1$.
     \end{example}
     \textit{ Sol. }\begin{align*}
         x^2+2x+1&=(x)^2+2(x)(1)+(1)^2\\
@@ -99,7 +98,7 @@
     \end{align*}
 
     \begin{example}
-        Factorize $x^2+4x+4$.
+        因式分解 $x^2+4x+4$.
     \end{example}
     \textit{ Sol. }\begin{align*}
         x^2+4x+4&=(x)^2+2(x)(2)+(2)^2\\
@@ -107,7 +106,7 @@
     \end{align*}
 
     \begin{example}
-        Factorize $x^2-2x+1$.
+        因式分解 $x^2-2x+1$.
     \end{example}
     \textit{ Sol. }\begin{align*}
         x^2-2x+1&=(x)^2-2(x)(1)+(1)^2\\
@@ -115,7 +114,7 @@
     \end{align*}
 
     \begin{example}
-        Factorize $x^2-4x+4$.
+        因式分解 $x^2-4x+4$.
     \end{example}
     \textit{ Sol. }\begin{align*}
         x^2-4x+4&=(x)^2-2(x)(2)+(2)^2\\
@@ -123,7 +122,7 @@
     \end{align*}
 
     \begin{example}
-        Factorize $x^2-1$.
+        因式分解 $x^2-1$.
     \end{example}
     \textit{ Sol. }\begin{align*}
         x^2-1&=(x)^2-(1)^2\\
@@ -131,33 +130,33 @@
     \end{align*}
 
     \begin{example}
-        Factorize $x^2-9$.
+        因式分解 $x^2-9$.
     \end{example}
     \textit{ Sol. }\begin{align*}
         x^2-9&=(x)^2-(3)^2\\
         &=(x+3)(x-3)
     \end{align*}
 
-    We shall now be familiar with simple factorization. Let's practise with these basic identities.
+    讓我們運用恆等式做些簡單的因式分解練習。
 
     \subsection*{Exercise}
     \begin{enumerate}
-        \item Factorize the following:\begin{align*}
+        \item 因式分解：\begin{align*}
             &a)\ x^2+6x+9&&b)\ x^2+8x+16&&c)\ x^2+10x+25&&d)\ x^2+16x+64\\
             &e)\ 2x^2+12x+18&&f)\ 4x^2+32x+64&&g)\ 6x^2+60x+150&&h)\ 8x^2+128x+512\\
             &i)\ x^3+6x^2+9x&&j)\ x^5+8x^4+16x^3&&k)\ x^8+10x^6+25x^4&&l)\ x^9+16x^5+64x\\
         \end{align*}
-        \item Factorize the following:\begin{align*}
+        \item 因式分解：\begin{align*}
             &a)\ x^2-6x+9&&b)\ x^2-8x+16&&c)\ x^2-10x+25&&d)\ x^2-16x+64\\
             &e)\ 2x^2-12x+18&&f)\ 4x^2-32x+64&&g)\ 6x^2-60x+150&&h)\ 8x^2-128x+512\\
             &i)\ x^3-6x^2+9x&&j)\ x^5-8x^4+16x^3&&k)\ x^8-10x^6+25x^4&&l)\ x^9-16x^5+64x\\
         \end{align*}
-        \item Factorize the following:\begin{align*}
+        \item 因式分解：\begin{align*}
             &a)\ x^2-9&&b)\ x^2-16&&c)\ x^2-25&&d)\ x^2-64\\
             &e)\ 2x^2-18&&f)\ 4x^2-64&&g)\ 6x^2-150&&h)\ 8x^2-512\\
             &i)\ x^3-9x&&j)\ x^5-16x^3&&k)\ x^8-25x^4&&l)\ x^9-64x\\
         \end{align*}
-        \item Factorize the following:\begin{align*}
+        \item 因式分解：\begin{align*}
             &a)\ x^2+2ax+a^2&&b)\ x^2+8x+16-b^2\\
             &c)\ x^2+10x+25-y^2+2yc-c^2&&d)\ ax^2+16a^2x+64a^3\\
             &e)\ 2x^2+12xy+18y^2&&f)\ 4(x+y)^2+32(x^2-y^2)+64(x-y)^2
@@ -165,43 +164,43 @@
     \end{enumerate}
 
     \begin{center}
-        \textbf{Factorization using more identities}
+        \textbf{以更多恆等式進行因式分解}
     \end{center}
 
-    For more information to using identities, we will learn more expressions to familiarize ourselves with them.
+    為提高對因式分解的認知，我們將學習更多恆等式式以更熟練地運用它們。
 
-    We had expressions of degree 2, so we could also proceed to that of degree 3.\begin{align*}
+    我們已有二次多項式，所以我們可以進階到三次多項式\begin{align*}
         (x+y)^3&=x^3+3x^2y+3xy^2+y^3\\
         (x-y)^3&=x^3-3x^2y+3xy^2-y^3\\
         (x+y)(x^2-xy+y^2)&=x^3+y^3\\
         (x-y)(x^2+xy+y^2)&=x^3-y^3
     \end{align*}
 
-    Just, to be clear of what is happening, we will give the expansions a clear proof.\begin{enumerate}
-        \item For $(x+y)^3=x^3+3x^2y+3xy^2+y^3$:\begin{align*}
+    為清晰起見，我們將為其提供一個證明。\begin{enumerate}
+        \item 對於 $(x+y)^3=x^3+3x^2y+3xy^2+y^3$:\begin{align*}
             (x+y)^3&=(x+y)(x+y)^2\\
             &=(x+y)(x^2+2xy+y^2)\\
             &=x^3+3x^2y+3xy^2+y^3
         \end{align*}
-        \item For $(x-y)^3=x^3-3x^2y+3xy^2-y^3$:\begin{align*}
+        \item 對於 $(x-y)^3=x^3-3x^2y+3xy^2-y^3$:\begin{align*}
             (x-y)^3&=(x-y)(x-y)^2\\
             &=(x-y)(x^2-2xy+y^2)\\
             &=x^3-3x^2y+3xy^2-y^3
         \end{align*}
-        \item For $(x+y)(x^2-xy+y^2)=x^3+y^3$:\begin{align*}
+        \item 對於 $(x+y)(x^2-xy+y^2)=x^3+y^3$:\begin{align*}
             (x+y)(x^2-xy+y^2)&=x^3+x^2y-x^2y-xy^2+xy^2+y^3\\
             &=x^3+y^3
         \end{align*}
-        \item For $(x-y)(x^2+xy+y^2)=x^3-y^3$:\begin{align*}
+        \item 對於 $(x-y)(x^2+xy+y^2)=x^3-y^3$:\begin{align*}
             (x-y)(x^2+xy+y^2)&=x^3-x^2y+x^2y-xy^2+xy^2-y^3\\
             &=x^3-y^3
         \end{align*}
     \end{enumerate}
     
-    Let's look at some examples to familiarize ourselves to how these work.
+    讓我們通過一些例子來提升我們對其原理的熟練度。
 
     \begin{example}
-        Factorize $x^3+3x^2+3x+1$.
+        因式分解 $x^3+3x^2+3x+1$.
     \end{example}
     \textit{ Sol. }\begin{align*}
         x^3+3x^2+3x+1&=(x)^3+3(x)^2(1)+3(x)(1)^2+(1)^3\\
@@ -209,7 +208,7 @@
     \end{align*}
 
     \begin{example}
-        Factorize $x^3+6x^2+12x+8$.
+        因式分解 $x^3+6x^2+12x+8$.
     \end{example}
     \textit{ Sol. }\begin{align*}
         x^3+6x^2+12x+8&=(x)^3+3(x)^2(2)+3(x)(2)^2+(2)^3\\
@@ -217,7 +216,7 @@
     \end{align*}
 
     \begin{example}
-        Factorize $x^3-3x^2+3x-1$.
+        因式分解 $x^3-3x^2+3x-1$.
     \end{example}
     \textit{ Sol. }\begin{align*}
         x^3-3x^2+3x-1&=(x)^3-3(x)^2(1)+3(x)(1)^2-(1)^3\\
@@ -225,7 +224,7 @@
     \end{align*}
 
     \begin{example}
-        Factorize $x^3-6x^2+12x-8$.
+        因式分解 $x^3-6x^2+12x-8$.
     \end{example}
     \textit{ Sol. }\begin{align*}
         x^3-6x^2+12x-8&=(x)^3-3(x)^2(2)+3(x)(2)^2-(2)^3\\
@@ -233,7 +232,7 @@
     \end{align*}
 
     \begin{example}
-        Factorize $x^3+1$.
+        因式分解 $x^3+1$.
     \end{example}
     \textit{ Sol. }\begin{align*}
         x^3+1&=(x)^3+(1)^3\\
@@ -241,7 +240,7 @@
     \end{align*}
 
     \begin{example}
-        Factorize $x^3+8$.
+        因式分解 $x^3+8$.
     \end{example}
     \textit{ Sol. }\begin{align*}
         x^3+8&=(x)^3+(2)^3\\
@@ -249,7 +248,7 @@
     \end{align*}
 
     \begin{example}
-        Factorize $x^3-1$.
+        因式分解 $x^3-1$.
     \end{example}
     \textit{ Sol. }\begin{align*}
         x^3-1&=(x)^3-(1)^3\\
@@ -257,111 +256,111 @@
     \end{align*}
 
     \begin{example}
-        Factorize $x^3-8$.
+        因式分解 $x^3-8$.
     \end{example}
     \textit{ Sol. }\begin{align*}
         x^3-8&=(x)^3-(2)^3\\
         &=(x-2)(x^2+2x+4)
     \end{align*}
 
-    We shall now be familiar with degree 3 factorization. Let's practise with these basic identities.
+    現在我們對3次多項式因式分解有了認識，讓我們做些基本的恆等式練習。
 
     \subsection*{Exercise}
     \begin{enumerate}
-        \item Factorize the following:\begin{align*}
+        \item 因式分解：\begin{align*}
             &a)\ x^3+9x^2+27x+27&&b)\ x^3+12x^2+48x+64&&c)\ x^3+15x^2+75x+125\\
             &d)\ 2x^3+18x^2+54x+54&&e)\ 3x^3+36x^2+144x+192&&f)\ 5x^3+75x^2+375x+625\\
         \end{align*}
-        \item Factorize the following:\begin{align*}
+        \item 因式分解：\begin{align*}
             &a)\ x^3-9x^2+27x-27&&b)\ x^3-12x^2+48x-64&&c)\ x^3-15x^2+75x-125\\
             &d)\ 2x^3-18x^2+54x-54&&e)\ 3x^3-36x^2+144x-192&&f)\ 5x^3-75x^2+375x-625\\
         \end{align*}
-        \item Factorize the following:\begin{align*}
+        \item 因式分解：\begin{align*}
             &a)\ x^3+27&&b)\ x^3+12x^2+48x+64&&c)\ x^3+125\\
             &d)\ 2x^3+54&&e)\ 3x^3+192&&f)\ 5x^3+625\\
         \end{align*}
-        \item Factorize the following:\begin{align*}
+        \item 因式分解：\begin{align*}
             &a)\ x^3-27&&b)\ x^3-64&&c)\ x^3-125\\
             &d)\ 2x^3-54&&e)\ 3x^3-192&&f)\ 5x^3-625\\
         \end{align*}
     \end{enumerate}
 
     \begin{center}
-        \textbf{Factorization using cross-method}
+        \textbf{以十字相乘法進行因式分解}
     \end{center}
 
-    From now on, we will dive into the main question: How to factorize any quadratic (degree 2) polynomials in the form of $$x^2+px+q$$ or, to be more general, $$ax^2+bx+c$$ using rational thinking? We shall now suppose if a quadratic polynomial $x^2+px+q$ can be factorized into the form $$(x+a)(x+b)$$ then it is equivalent to saying $$(x+a)(x+b)=x^2+px+q$$ which if we proceed one step further, the result will be $$x+(a+b)x+ab=x^2+px+q$$
+    從現在開始，我們將深入探究一個重要問題：如何解以下形式： $$x^2+px+q$$ 或為更廣汎的形式 $$ax^2+bx+c$$ 的二次方程？ 假設 $x^2+px+q$ 可被分解爲 $$(x+a)(x+b)$$ 就相當於說 $$(x+a)(x+b)=x^2+px+q$$ 也就是説 $$x+(a+b)x+ab=x^2+px+q$$
 
-    It should be clear to see that \begin{align*}
+    比較同類項，可見 \begin{align*}
         \begin{cases}
             a+b=p\\
             ab=q
         \end{cases}
     \end{align*}
 
-    This then gives us a hint that we should perform a factorization on the constant $q$ first, then try to figure out which pair of $a,b$ gives the true relation on $a+b=p$.
+    這給了我們一個提示，我們應先分解常數 $q$ 再利用$a+b=p$求得 $a,b$ 的正確值。
 
-    So we may now conclude the steps of investigation and familiarize ourselves with some examples.\begin{enumerate}
-        \item By comparing like terms, discover the $p,q$ in the expressions.
-        \item Try to factorize $q$, state every pair of factors.
-        \item Check the sum of each pair of factors. If one provides a true result on $a+b=p$, then it is the true pair we need.
-        \item Write down $(x+a)(x+b)$ as the factorized form.
+    總結步驟：\begin{enumerate}
+        \item 通過比較同類項，求 $p,q$ 的值。
+        \item 嘗試寫出q的每對因子。
+        \item 檢查每對因子的和。 如符合 $a+b=p$，則為正確答案。
+        \item 寫下 $(x+a)(x+b)$。
     \end{enumerate}
 
     \begin{example}
-        Factorize $x^2+4x+3$.
+        因式分解 $x^2+4x+3$.
     \end{example}
 
-    \textit{ Sol.}Step 1: find $p$ and $q$.
+    \textit{ Sol.}1：求 $p$ 和$q$.
     \begin{align*}
         p=4, q=3
     \end{align*}
-    \indent \indent Step 2: Factorize $q$ (with negative pairs).
+    \indent \indent 2：分解 $q$ (包含負數因子對).
     \begin{align*}
         3&=1\cdot 3\\
         &=(-1)\cdot(-3)
     \end{align*}
-    \indent \indent Step 3: Check $a+b=p$ (with negative pairs).
+    \indent \indent 3：檢查 $a+b=p$ (包括負數因子對).
     \begin{align*}
         1+3&=4\\
         (-1)+(-3)&=-4
     \end{align*}
-    \indent \indent \indent Since $p=4$, we have the factor pair $a=1,b=3$.\\
-    \indent \indent Step 4: Complete the factorization.
+    \indent \indent \indent 由於 $p=4$，所以 $a=1,b=3$為正確答案\\
+    \indent \indent 4：總結。
     \begin{align*}
         x^2+4x+3=(x+1)(x+3)
     \end{align*}
 
-    We could check that the factorized expression is indeed expanding back to the original polynomial.\begin{align*}
+    我們應確保因式分解後的表達式可以展開為原本的多項式。\begin{align*}
         (x+1)(x+3)&=x(x+3)+(x+3)\\
         &=x^2+3x+x+3\\
         &=x^2+4x+3
     \end{align*}
 
-    This shows that our work is correctly given. Someone in the history consider the above steps could be refined in a compressed way of representation. We shall call it the \textbf{cross-method}.
+    這說明我們的步驟正確。有數學家認為上述步驟可以有更緊凑的表示方式。這個方法我們將其稱為\textbf{十字相乘法}。
     
     \begin{example}
-        Factorize $x^2+4x+3$ using cross-method.
+        利用十字相乘法因式分解 $x^2+4x+3$。
     \end{example}
 
-    \textit{ Sol.}As long as $3=1\cdot 3=(-1)\cdot(-3)$, we have 
+    \textit{ Sol.}由於 $3=1\cdot 3=(-1)\cdot(-3)$，
     \begin{figure}[H]
         \centering
         \includegraphics[scale=0.6]{cross-method}
     \end{figure}
-    \indent \indent That is, the factorization shows $x^2+4x+3=(x+1)(x+3)$.
+    \indent \indent 即 $x^2+4x+3=(x+1)(x+3)$。
 
-    From here, you should be familiar enough to cross-method. You may check your understanding of using cross-method by the following exercises.
+    我們可以通過以下練習來熟習十字相乘法的運用。
 
     \subsection*{Exercise}
     \begin{enumerate}
-        \item Factorize the following using cross-method:\begin{align*}
+        \item 以十字相乘法因式分解：\begin{align*}
             &a)\ x^2+6x+8&&b)\ x^2+9x+18&&c)\ x^2+7x+6\\
             &d)\ x^2-6x+8&&e)\ x^2-9x+18&&f)\ x^2-7x+6\\
             &g)\ x^2+6x-27&&h)\ x^2+9x-22&&i)\ x^2+7x-30\\
             &j)\ x^2-6x-27&&k)\ x^2-9x-22&&l)\ x^2-7x-30
         \end{align*}
-        \item Factorize the following using cross-method:\begin{align*}
+        \item 以十字相乘法因式分解：\begin{align*}
             &a)\ 2x^2+12x+16&&b)\ 3x^2+27x+54&&c)\ 5x^2+35x+30\\
             &d)\ 7x^2-42x+56&&e)\ -11x^2+99x-198&&f)\ -3x^2+21x-18
         \end{align*}
@@ -371,39 +370,39 @@
         \textbf{Solving quadratic equations by factor method}
     \end{center}
 
-    To solve quadratic equations, we acknowledge the following:\begin{theorem}
-        If $ab=0$, then either $a=0$ or $b=0$.
+    為解二次方程，我們得知以下幾點\begin{theorem}
+        若 $ab=0$， 則 $a=0$ 或 $b=0$。
     \end{theorem}
 
-    It should be clear that from above theorem, we have when $(x-\alpha)(x-\beta)=0$, then $x-\alpha=0$ or $x-\beta=0$. This means the \textbf{solutions} to the equation are $x=\alpha$ or $x=\beta$.
+    從以上可見，若 $(x-\alpha)(x-\beta)=0$，則 $x-\alpha=0$ 或 $x-\beta=0$。因此方程的 \textbf{解} 為 $x=\alpha$ 或 $x=\beta$.
 
     \begin{example}
-        Solve $x^2-4x+3=0$.
+        解 $x^2-4x+3=0$.
     \end{example}
 
-    \textit{ Sol. }By factorization, we have $(x-1)(x-3)=0$, then $x=1$ or $x=3$ are the solutions to the equation.
+    \textit{ Sol. }通過因式分解，可得 $(x-1)(x-3)=0$，因此 $x=1$ 或 $x=3$ 為方程的解。
 
     \begin{example}
-        Solve $x^2+4x+3=0$.
+        解 $x^2+4x+3=0$.
     \end{example}
 
-    \textit{ Sol. }By factorization, we have $(x+1)(x+3)=0$, then $x=-1$ or $x=-3$ are the solutions to the equation.
+    \textit{ Sol. }通過因式分解，可得 $(x+1)(x+3)=0$，因此 $x=-1$ 或 $x=-3$ 為方程的解。
 
-    We may also encounter double roots, i.e. duplicated solution to the equation. Then we can write the solution once only.
+    當我遇到方程有兩個根，而兩個根是重複的話，我們只需列明其中一個根即可。
 
     \begin{example}
-        Solve $x^2+4x+4=0$.
+        解 $x^2+4x+4=0$.
     \end{example}
 
-    \textit{ Sol. }By factorization, we have $(x+2)^2=0$, then $x=-2$ is the solution to the equation.
+    \textit{ Sol. }通過因式分解，可得 $(x+2)^2=0$，則 $x=-2$ 是唯一解
 
     \subsection*{Exercise}
     \begin{enumerate}
-        \item Solve the following equations:\begin{align*}
+        \item 解方程：\begin{align*}
             &a)\ 2x^2+12x+16=0&&b)\ 3x^2+27x+54=0&&c)\ 5x^2+35x+30=0\\
             &d)\ 7x^2-42x+56=0&&e)\ -11x^2+99x-198=0&&f)\ -3x^2+21x-18=0
         \end{align*}
-        \item Solve the following equations:\begin{align*}
+        \item 解方程：\begin{align*}
             &a)\ x^2+6x+9=0&&b)\ x^2+8x+16=0&&c)\ x^2+10x+25=0\\
             &d)\ x^2+16x+64=0&&e)\ 2x^2-12x+18=0&&f)\ 4x^2-32x+64=0\\
             &g)\ 6x^2-60x+150=0&&h)\ 8x^2-128x+512=0&&i)\ x^3-9x=0\\
@@ -412,20 +411,20 @@
     \end{enumerate}
 
     \begin{center}
-        \textbf{Solving quadratic equations using formula}
+        \textbf{使用公式求解二次方程}
     \end{center}
 
-    One should observe that not every quadratic polynomial can be factorized perfectly. For example, if the equation be like:$$x^2+6x-6=0$$
+    應注意，並不是所有二次多項式都可以完美分解。例如以下等式：$$x^2+6x-6=0$$
 
-    We could see for the left-hand side, if $x=0$, the expression computes $<0$; if $x=1$, the expression computes $>0$. You could imagine there must be some number $0<x<1$ so that the equation holds.
+    我們可以見到對於左側，如果$x=0$， 則表達式計算結果大於 $0$; 若 $x=1$, 則表達式計算結果小於 $0$由此可想象存在$0<x<1$使等式成立。
     
-    For exact solution, one introduced the notation $\sqrt{k}$ for finding the solution to $x^2=k$. It is important to remember that both positive and negative numbers can be squared to become positive, i.e. $(\sqrt{x})^2=x$ and $(-\sqrt{x})^2=x$ if $x>0$.
+    至於準確解，我們引入根號 $\sqrt{k}$ 以解 $x^2=k$. 需要重要記得的一點是，正數和負數在平方后都等於正數。即 $(\sqrt{x})^2=x$ 及 $(-\sqrt{x})^2=x$ 當 $x>0$.
 
-    For any quadratic equation in the form of $ax^2+bx+c=0$, one provides a solution in the following form:$$\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$where the plus or minus sign $\pm$ indicates two solutions in one writing. This means the above formula is representing, if $x$ satisfies the equation, then either $$x=\frac{-b+\sqrt{b^2-4ac}}{2a}\textrm{ or }x=\frac{-b-\sqrt{b^2-4ac}}{2a}$$ 
+    至於一般式 $ax^2+bx+c=0$，其解可以用以下形式表達：$$\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$其中加減號$\pm$同時表示一正一減兩個解。這代表只要$x$可滿足此二次方程，則： $$x=\frac{-b+\sqrt{b^2-4ac}}{2a}\textrm{ 或 }x=\frac{-b-\sqrt{b^2-4ac}}{2a}$$ 
     
-    The origination of the formula comes from completing square method, which is quite hard to understand. We will write it down abstractly as for the proof of quadratic formula, and concrete examples will be introduced later in the section of graphs of quadratic polynomials.
+    此表達方式來自配分法，其過程較爲複雜。為證明其真確性，我們將以抽象的方式的寫法展示過程，而確實證明可參閲稍後的二次多項式圖表部分。
 
-    Here's the proof of quadratic formula:\begin{align*}
+    此為二次方程的證明：\begin{align*}
         ax^2+bx+c&=0\\
         a(x^2+\frac{b}{a}x)+c&=0\\
         a(x^2+2\frac{b}{2a}x+\frac{b^2}{4a^2}-\frac{b^2}{4a^2})+c&=0\\
@@ -435,73 +434,73 @@
         x&=\frac{-b\pm\sqrt{b^2-4ac}}{2a}
     \end{align*}
 
-    We will go through some usage of quadratic formula.
+    以 下 為 一 些 二 次 方 程 的 應 用：
 
     \begin{example}
-        Solve $x^2+7x-9=0$ using quadratic formula.
+        解$x^2+7x-9=0$。
     \end{example}
 
-    \textit{ Sol.} Identifying $a=1$, $b=7$, $c=-9$, we have \begin{align*}
+    \textit{ Sol.} $a=1$, $b=7$, $c=-9$ \begin{align*}
         x&=\frac{-b\pm\sqrt{b^2-4ac}}{2a}\\
         &=\frac{-7\pm\sqrt{7^2-4\cdot 1\cdot (-9)}}{2}\\
         &=\frac{-7\pm\sqrt{85}}{2}
     \end{align*}
 
     \begin{example}
-        Solve $2x^2+3x-4=0$ using quadratic formula.
+        解 $2x^2+3x-4=0$ 。
     \end{example}
 
-    \textit{ Sol.} Identifying $a=2$, $b=3$, $c=-4$, we have \begin{align*}
+    \textit{ Sol.}  $a=2$, $b=3$, $c=-4$ \begin{align*}
         x&=\frac{-b\pm\sqrt{b^2-4ac}}{2a}\\
         &=\frac{-3\pm\sqrt{3^2-4\cdot 2\cdot (-4)}}{4}\\
         &=\frac{-3\pm\sqrt{41}}{4}
     \end{align*}
 
-    You may now try to solve any quadratic equation using quadratic formula.
+    現 在 可 以 嘗 試 使 用 二 次 方 程 公 式 求 解 任 何 二 次 方 程 。
 
     \subsection*{Exercise}
 
     \begin{enumerate}
-        \item Solve the following quadratic equation:\begin{align*}
+        \item 求解以下二次方程：\begin{align*}
             &a)\ 3x^2-12x-26=0&&b)\ 7x^2-27x+54=0&&c)\ 4x^2+35x+1=0\\
             &d)\ 2x^2-33x+6=0&&e)\ -11x^2+89x-18=0&&f)\ -3x^2+21x-18=0
         \end{align*}
-        \item Solve the following quadratic equation in terms of $k$:\begin{align*}
+        \item 求解以下二次方程，並以$k$表示答案：\begin{align*}
             &a)\ 3kx^2-x-2=0&&b)\ 7x^2-27x+k=0&&c)\ kx^2+35x+1=0\\
             &d)\ 2x^2-3kx+6=0&&e)\ -11x^2+kx-k=0&&f)\ -kx^2+21x-k^2=0
         \end{align*}
     \end{enumerate}
 
     \begin{center}
-        \textbf{Nature of roots: the existence of real roots}
+        \textbf{實根的存在性}
     \end{center}
 
-    One should observe that the quadratic formula $$\frac{-b\pm \sqrt{b^2-4ac}}{2a}$$ consists of a square-root part, namely $b^2-4ac$, that affects the nature of roots very much. We gave it a name as \textbf{discriminant}, meaning the value of it discriminates the nature of roots. If this part is $\geq 0$, the quadratic formula returns a real number; if this part is $< 0$, then we will be facing a square-root of negative numbers. From the history it kills a lot of mathematicians, but from now on let us define a new notion for it.
+    留意在二次方程公式中 $$\frac{-b\pm \sqrt{b^2-4ac}}{2a}$$ 開方部分 $b^2-4ac$對根的性質有很大的影響，我們稱其爲 \textbf{判別式}代表其可判斷根的特性。若此部分 $\geq 0$則公式有實數答案；若此部分 $< 0$, 則公式沒有實數答案。 在以前，它殺死了很多數學家，但從現在開始，讓我們為它定義一
+    個新的概念。
 
-    We will define a new element call $i$ such that it satisfies the equation $$i^2=-1$$ and such that for any positive real number $k$, we can write $\sqrt{-k}=i\sqrt{k}$. We shall call $i$ the imaginary number as it could not be thought of as a real number. For something unreal, that is imaginary.
+    我們將定義一個新元素$i$， 使其滿足方程： $$i^2=-1$$ 並對於所有正數 $k$可寫 $\sqrt{-k}=i\sqrt{k}$。我們稱 $i$ 為虛數，因爲它不是實數。
 
-    In this sense, for if $b^2-4ac<0$, we could have a suitable form of writing, in the form of $x+yi$, so that every solution to quadratic equation is well-written. We call this form of number a \textbf{complex number}, with $x,y$ to be some real numbers.
+    從這個意義上說，當 $b^2-4ac<0$, 我 們 可 以 用 一 個 更 合 適 的 書 寫 形 式 ，即 $x+yi$, 使得每個解都可以完整表達。我們將這種形式的數字稱為\textbf{複數}， 其中$x, y$是實數。
 
-    From here let us write down the conclusion to the reality of roots using a table:
+    從這裡開始，讓我們用表格寫下根的性質的結論：
 
     \begin{center}
         \begin{tabular}{|c|c|c|}
             \hline
-            $\Delta=b^2-4ac$&Roots&Nature of roots\\
+            $\Delta=b^2-4ac$&根&性質\\
             \hline
-            $>0$&$\dfrac{-b\pm\sqrt{\Delta}}{2a}$&2 distinct real roots\\
+            $>0$&$\dfrac{-b\pm\sqrt{\Delta}}{2a}$&相異實根\\
             \hline
-            $=0$&$\dfrac{-b}{2a}$&1 double root\\
+            $=0$&$\dfrac{-b}{2a}$&重根\\
             \hline
-            $<0$&$\dfrac{-b\pm\sqrt{-\Delta}i}{2a}$&No real roots (2 complex roots)\\
+            $<0$&$\dfrac{-b\pm\sqrt{-\Delta}i}{2a}$&沒有實根 (2 虛數根)\\
             \hline
         \end{tabular}
     \end{center}
 
-    From this we can now easily determine the nature of roots before really computing the value of the roots.
-
+    由此，我們現在可以在計算根值之前確定根的性質。
     \begin{example}
-        Determine the nature of roots of the following. If it has real root(s), solve for it.\begin{enumerate}
+        辨別下列根的性質。如果它有實根，則求解。\begin{enumerate}
             \item[(a)] $7x^2+5x-10=0$.
             \item[(b)] $81x^2-18x+1=0$.
             \item[(c)] $20x^2+19x+10=0$.
@@ -509,46 +508,46 @@
     \end{example}
 
     \textit{ Sol.}\begin{enumerate}
-        \item[(a)] Checking the discriminant $\Delta=b^2-4ac=5^2-4(7)(-10)=305>0$, so it has 2 distinct real roots. By substituting the $\Delta$ back to the quadratic formula, we have \begin{align*}
+        \item[(a)] 檢 查 判 別 式 $\Delta=b^2-4ac=5^2-4(7)(-10)=305>0$, ， 因 此 它 有 2 個 不 同 的 實 根 。 代 $\Delta$， \begin{align*}
             x=\frac{-b\pm\sqrt{\Delta}}{2a}=\frac{-5\pm\sqrt{305}}{14}
         \end{align*}
-        \item[(b)] Checking the discriminant $\Delta=b^2-4ac=(-18)^2-4(81)(1)=0$, so it has 1 double real root. By substituting the $\Delta$ back to the quadratic formula, we have \begin{align*}
+        \item[(b)] 檢 查 判 別 式 $\Delta=b^2-4ac=(-18)^2-4(81)(1)=0$， 因 此 它 有 1 個 實 根 。 代 $\Delta$\begin{align*}
             x=\frac{-b}{2a}=\frac{18}{162}=\frac{1}{9}
         \end{align*}
-        \item[(c)] Checking the discriminant $\Delta=b^2-4ac=19^2-4(20)(10)=-439<0$, so it has no real roots. 
+        \item[(c)] 檢 查 判 別 式 $\Delta=b^2-4ac=19^2-4(20)(10)=-439<0$， 因 此 它 沒 有 實 根 。
     \end{enumerate}
 
-    We also notice that if we know the nature of roots for some unknown quadratic equations, we could retrieve the unknowns by drawing out propositions on the discriminant.
+    同時注意，如果我們知道一些未知二次方程的根的性質，我們可以根據判別式的命題來計算未知數。
 
     \begin{example}
-        It is known that the quadratic equation $kx^2-4x+k=0$ has only one real root, with real number $k$. Solve the equation.
+        已知二次方程 $kx^2-4x+k=0$ 只有一個實數根，$k$為實數 。解方程。
     \end{example}
 
-    \textit{ Sol.}By checking the discriminant, we obtain the following:\begin{align*}
+    \textit{ Sol.}通過檢查判別式，我們得到以下結果：\begin{align*}
         (-4)^2-4\cdot k\cdot k&=0\\
         k&=\pm 2
     \end{align*}
-    \indent \indent Therefore, the equation should be either $2x^2-4x+2=0$ or $-2x^2-4x-2=0$, and correspondingly having $x=2$ and $x=-2$ as root respectively.
+    \indent \indent 因此方程應該是 $2x^2-4x+2=0$ 或 $-2x^2-4x-2=0$，分別有 $x=2$ 及 $x=-2$ 作爲根。
 
     \subsection*{Exercise}
     \begin{enumerate}
-        \item Determine the nature of roots of the following quadratic equation:\begin{align*}
+        \item 判斷下 列 二 次 方 程 根 的 性 質 ：\begin{align*}
             &a)\ -390x^2-988x+794=0&&b)\ 82x^2+290x+759=0&&c)\ -924x^2-708x+959=0\\
             &d)\ -265x^2+336x-685=0&&e)\ 845x^2+396x-501=0&&f)\ -246x^2+16x-318=0
         \end{align*}
-        \item If the following quadratic equations all have only one real root, find the value(s) of $k$.\begin{align*}
+        \item 如 果 下 列 二 次 方 程 都 只 有 一 個 實 數 根 ， 求 $k$ 的 值 。\begin{align*}
             &a)\ kx^2-2x+9=0&&b)\ 82x^2+kx+79=0&&c)\ -24x^2-70x+4k=0\\
             &d)\ -kx^2+36x-k=0&&e)\ 8kx^2+3kx-51=0&&f)\ 2kx^2+(3k-6)x-4k-8=0
         \end{align*}
     \end{enumerate}
 
     \begin{center}
-        \textbf{Vieta's formula: relation between roots and coefficients}
+        \textbf{韋達定理：根和係數之間的關係}
     \end{center}
 
-    We can now further dive into some kind of abstract-nonsense. In previous section, we found that discriminant tells us the nature of the roots of the quadratic equation, and if we see the roots counted with multiplicity, the number of roots is always being equal to 2. This is not so surprising because we can always think of factorizing a quadratic equation into a product of two linear factors, so our work could be done by assuming there is always 2 roots, either they are the same or distinct.
+    我們現在可以進一步深入探討比較抽象的内容，在上一部分中，我們發現判別式可告訴我們二次方程根的性質，當我們看到根以重數計算，根的數量始終等於2。這並不奇怪，因為我們總是可以想到將兩次方程分解為兩個線性因式的乘積，因此我們可以假設始終有2個根。
 
-    We shall now investigate the relation between roots and coefficients, so we have a new game created by Mathematicians called algebra. Let us assume that we have a quadratic equation in the form of $x^2+px+q=0$, and this equation has roots $\alpha$ and $\beta$, which may not be real but we could still represent them using complex numbers. For if we translate the words into mathematical presentation: $$(x-\alpha)(x-\beta)=0=x^2-px+q$$ It is clear that the left-hand side is exactly equal to the right-hand side. We then expand the left-hand side to the following form: $$x^2-(\alpha+\beta)x+\alpha\beta=x^2+px+q$$ This takes us to the relation between roots and coefficients by comparing like terms $$\begin{cases}
+    現在我們要研究根和係數之間的關係，因此我們有一個由數學家創建的新遊戲，稱為代數。假設我們有一個形式為_的二次方程，並且該方程有根$\alpha$和$\beta$，這可能不是實數，但我們仍然可以用複數表示它們。如果我們將這些詞翻譯成數學表示： $$(x-\alpha)(x-\beta)=0=x^2-px+q$$ It is clear that the left-hand side is exactly equal to the right-hand side. We then expand the left-hand side to the following form: $$x^2-(\alpha+\beta)x+\alpha\beta=x^2+px+q$$ This takes us to the relation between roots and coefficients by comparing like terms $$\begin{cases}
         \alpha+\beta=-p\\ 
         \alpha\beta=q
     \end{cases}$$
